@@ -1,0 +1,87 @@
+apply plugin: 'com.android.application'
+apply plugin: 'stringfog'
+
+
+import com.github.megatronking.stringfog.plugin.kg.RandomKeyGenerator
+import com.github.megatronking.stringfog.plugin.StringFogMode
+
+stringfog {
+
+    implementation 'com.github.megatronking.stringfog.xor.StringFogImpl'
+
+    packageName 'com.github.megatronking.stringfog.app'
+
+    enable true
+
+    fogPackages = ['com.icontrol.protector']
+
+    kg new RandomKeyGenerator()
+
+    mode StringFogMode.bytes
+}
+
+android {
+
+    namespace "com.icontrol.protector"
+    compileSdk 34
+    useLibrary 'org.apache.http.legacy'
+    // buildToolsVersion '29.0.3'
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    defaultConfig {
+        flavorDimensions "payload"
+        applicationId "com.icontrol"
+        minSdkVersion 24
+        //noinspection EditedTargetSdkVersion,ExpiredTargetSdkVersion
+        targetSdkVersion 34
+        versionCode 331165
+        versionName "3.31.165"
+
+        //    testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+
+    }
+    productFlavors {
+        payload{
+            applicationIdSuffix ".protector"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+dependencies {
+
+    //noinspection GradleCompatible,GradleCompatible
+    implementation 'com.android.support:support-compat:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'org.apache.httpcomponents:httpcore:4.4.16'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+    //implementation 'com.google.firebase:firebase-crashlytics-buildtools:2.9.9'
+    implementation 'com.github.megatronking.stringfog:xor:5.0.0'
+    implementation 'androidx.work:work-runtime:2.9.1'
+//    implementation 'androidx.startup:startup-runtime:1.1.1'
+    implementation 'androidx.activity:activity-ktx:1.7.0'
+    implementation 'androidx.fragment:fragment-ktx:1.5.7'
+
+
+    //help detect memory leaks
+    //debugImplementation 'com.squareup.leakcanary:leakcanary-android:3.0-alpha-8'
+}
+
+
+
+
+
+
+

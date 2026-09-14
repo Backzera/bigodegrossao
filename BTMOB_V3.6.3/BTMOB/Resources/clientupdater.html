@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="[LNG]">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Client Version Dashboard</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background: #000;
+            color: #f0f0f0;
+            cursor: pointer;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            -webkit-tap-highlight-color: transparent;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+
+
+        .container {
+            padding: 5px;
+            margin: 5px auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #232323;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th,
+        td {
+            padding: 14px 18px;
+            text-align: left;
+            border-bottom: 1px solid #444;
+        }
+
+        th {
+            background: #232323;
+            color: #097aeb;
+        }
+
+        td img {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+        }
+
+        .btn {
+            padding: 6px 12px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .btn-update {
+            background-color: #1E90FF;
+            color: white;
+        }
+
+        .status-requested {
+            color: #ffa500;
+        }
+
+        .status-updated {
+            color: #00e676;
+        }
+
+        /* .btn-updated {
+            background-color: #555;
+            color: #ccc;
+            cursor: default;
+        } */
+
+        .status-not {
+            color: #f0f0f0;
+        }
+
+        @media (max-width: 768px) {
+
+            table,
+            thead,
+            tbody,
+            th,
+            td,
+            tr {
+                display: block;
+            }
+
+            thead {
+                display: none;
+            }
+
+            table {
+                background: #000;
+            }
+
+            tr {
+                margin-bottom: 15px;
+                background: #232323;
+                border-radius: 10px;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+            }
+
+            td {
+                padding: 10px;
+                display: flex;
+                justify-content: space-between;
+                border-bottom: none;
+                border-top: 1px solid #333;
+            }
+
+                td:first-child {
+                    border-top: none;
+                }
+        }
+
+        .cancelreq {
+            background-color: hsl(0, 0%, 39%);
+            color: white;
+        }
+    </style>
+</head>
+
+<body oncontextmenu="return false;">
+
+
+
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th id="thIcon">Icon</th>
+                    <th id="thIP">IP</th>
+                    <th id="thName">Name</th>
+                    <th id="thVersion">Version</th>
+                    <th id="thStatus">Status</th>
+                    <th id="thAction">Action</th>
+                    <th id="thTag">Tag</th>
+                </tr>
+            </thead>
+            <tbody id="clientTable"></tbody>
+        </table>
+    </div>
+
+    <script>
+        const translations = {
+            en: {
+                icon: "Icon",
+                ip: "IP",
+                name: "Name",
+                version: "Version",
+                status: "Status",
+                action: "Action",
+                btnRequest: "Request Update",
+                statusRequested: "Requested",
+                statusNot: "Not Requested",
+                statusUpdated: "Updated",
+                tag: "Tag",
+                btnCancel: "Cancel Request"
+
+            },
+            ar: {
+                icon: "الأيقونة",
+                ip: "IP",
+                name: "الاسم",
+                version: "الإصدار",
+                status: "الحالة",
+                action: "الإجراء",
+                btnRequest: "طلب التحديث",
+                statusRequested: "تم الطلب",
+                statusNot: "لم يُطلب",
+                statusUpdated: "مُحدث",
+                tag: "Tag",
+                btnCancel: "إلغاء الطلب"
+
+            },
+            zh: {
+                icon: "图标",
+                ip: "IP地址",
+                name: "名称",
+                version: "版本",
+                status: "状态",
+                action: "操作",
+                btnRequest: "请求更新",
+                statusRequested: "已请求",
+                statusNot: "未请求",
+                statusUpdated: "已更新",
+                tag: "Tag",
+                btnCancel: "取消请求"
+            },
+            tr: {
+                icon: "Simge",
+                ip: "IP",
+                name: "Ad",
+                version: "Sürüm",
+                status: "Durum",
+                action: "İşlem",
+                btnRequest: "Güncelleme İste",
+                statusRequested: "İstendi",
+                statusNot: "İstenmedi",
+                statusUpdated: "Güncel",
+                tag: "Tag",
+                btnCancel: "İsteği İptal Et"
+            },
+            ru: {
+                icon: "Иконка",
+                ip: "IP",
+                name: "Имя",
+                version: "Версия",
+                status: "Статус",
+                action: "Действие",
+                btnRequest: "Запросить обновление",
+                statusRequested: "Запрошено",
+                statusNot: "Не запрошено",
+                statusUpdated: "Обновлено",
+                tag: "Tag",
+                btnCancel: "Отменить запрос"
+            },
+            es: {
+                icon: "Ícono",
+                ip: "IP",
+                name: "Nombre",
+                version: "Versión",
+                status: "Estado",
+                action: "Acción",
+                btnRequest: "Solicitar actualización",
+                statusRequested: "Solicitado",
+                statusNot: "No solicitado",
+                statusUpdated: "Actualizado",
+                tag: "Tag",
+                btnCancel: "Cancelar solicitud"
+            },
+            pt: {
+                icon: "Ícone",
+                ip: "IP",
+                name: "Nome",
+                version: "Versão",
+                status: "Status",
+                action: "Ação",
+                btnRequest: "Solicitar Atualização",
+                statusRequested: "Solicitado",
+                statusNot: "Não solicitado",
+                statusUpdated: "Atualizado",
+                tag: "Tag",
+                btnCancel: "Cancelar solicitação"
+            }
+        };
+
+        const lang = document.documentElement.lang || "en";
+        const t = translations[lang] || translations.en;
+
+        // Apply translations to headers
+
+        document.getElementById("thIcon").textContent = t.icon;
+        document.getElementById("thIP").textContent = t.ip;
+        document.getElementById("thName").textContent = t.name;
+        document.getElementById("thVersion").textContent = "v3.6.1"; //t.version;
+        document.getElementById("thStatus").textContent = t.status;
+        document.getElementById("thAction").textContent = t.action;
+        document.getElementById("thTag").textContent = t.tag;
+
+        function clearClientTable() {
+            const tbody = document.getElementById('clientTable');
+            tbody.innerHTML = '';
+        }
+
+        function addClient(iconBase64, ip, name, version, status, ClientID, apptag) {
+            const tbody = document.getElementById('clientTable');
+            const tr = document.createElement('tr');
+
+            const iconTd = document.createElement('td');
+            const img = document.createElement('img');
+            img.src = "data:image/png;base64," + iconBase64;
+            iconTd.appendChild(img);
+
+            const ipTd = document.createElement('td');
+            ipTd.textContent = ip;
+
+            const nameTd = document.createElement('td');
+            nameTd.textContent = name;
+
+            const tagtd = document.createElement('td');
+            tagtd.textContent = apptag;
+
+            const versionTd = document.createElement('td');
+            versionTd.textContent = version;
+
+            const statusTd = document.createElement('td');
+            const actionTd = document.createElement('td');
+            const button = document.createElement('button');
+            button.className = 'btn btn-update';
+
+            // Keep internal state to track request/cancel
+            let isRequested = (status === 'requested');
+
+            function updateButtonAndStatus() {
+                if (isRequested) {
+                    statusTd.textContent = t.statusRequested;
+                    statusTd.className = 'status-requested';
+                    button.textContent = t.btnCancel;
+                    button.classList.add("cancelreq");
+                } else {
+                    statusTd.textContent = t.statusNot;
+                    statusTd.className = 'status-not';
+                    button.textContent = t.btnRequest;
+                }
+            }
+
+            // Set initial display based on status
+            if (status === 'updated') {
+                statusTd.textContent = t.statusUpdated;
+                statusTd.className = 'status-updated';
+                button.textContent = t.btnRequest;
+                isRequested = false; // still allow to request
+            } else {
+                updateButtonAndStatus();
+            }
+
+            button.onclick = async function () {
+                try {
+                    const thestate = isRequested ? 0 : 1;
+                    let reply = await window.chrome.webview.hostObjects.sync.mybridge.toolbarclick(ClientID, thestate);
+                    if (reply === 'ok') {
+                        isRequested = !isRequested;
+                        updateButtonAndStatus();
+                    }
+
+                } catch (err) {
+                    alert("Error: " + err.message);
+                }
+            };
+
+            actionTd.appendChild(button);
+
+            tr.appendChild(iconTd);
+            tr.appendChild(ipTd);
+            tr.appendChild(nameTd);
+            tr.appendChild(versionTd);
+            tr.appendChild(statusTd);
+            tr.appendChild(actionTd);
+            tr.appendChild(tagtd);
+
+            tbody.appendChild(tr);
+        }
+        function updateall() {
+            const buttons = document.querySelectorAll('#clientTable .btn-update');
+            buttons.forEach(button => {
+                if (button.textContent.trim() === t.btnRequest) {
+                    button.click();
+                }
+            });
+        }
+
+
+        window.addEventListener("contextmenu", function (e) {
+            e.preventDefault(); // Disable right-click
+        });
+
+    </script>
+
+</body>
+
+</html>

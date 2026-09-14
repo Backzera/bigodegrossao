@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6.1-FULL-SOURCE\\Builder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7337EA08-4AF7-4171-9739-0F6B362ECB6E}|SolrWorker\\SolrWorker.vbproj|c:\\users\\administrador do pc\\downloads\\000 - trampos\\sources\\btmob-3.6.1-full-source\\builder\\solrworker\\worker.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{7337EA08-4AF7-4171-9739-0F6B362ECB6E}|SolrWorker\\SolrWorker.vbproj|solutionrelative:solrworker\\worker.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7337EA08-4AF7-4171-9739-0F6B362ECB6E}|SolrWorker\\SolrWorker.vbproj|C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6.1-FULL-SOURCE\\Builder\\solrworker\\codes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{7337EA08-4AF7-4171-9739-0F6B362ECB6E}|SolrWorker\\SolrWorker.vbproj|solutionrelative:solrworker\\codes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7337EA08-4AF7-4171-9739-0F6B362ECB6E}|SolrWorker\\SolrWorker.vbproj|C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6.1-FULL-SOURCE\\Builder\\solrworker\\mylogger.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{7337EA08-4AF7-4171-9739-0F6B362ECB6E}|SolrWorker\\SolrWorker.vbproj|solutionrelative:solrworker\\mylogger.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7337EA08-4AF7-4171-9739-0F6B362ECB6E}|SolrWorker\\SolrWorker.vbproj|C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6.1-FULL-SOURCE\\Builder\\solrworker\\crypters.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{7337EA08-4AF7-4171-9739-0F6B362ECB6E}|SolrWorker\\SolrWorker.vbproj|solutionrelative:solrworker\\crypters.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013DD8EA-30DE-4CBE-869F-3D1A6B922AEE}|SolrStarter\\SolrStarter.vbproj|C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6.1-FULL-SOURCE\\Builder\\solrstarter\\starter.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{013DD8EA-30DE-4CBE-869F-3D1A6B922AEE}|SolrStarter\\SolrStarter.vbproj|solutionrelative:solrstarter\\starter.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013DD8EA-30DE-4CBE-869F-3D1A6B922AEE}|SolrStarter\\SolrStarter.vbproj|C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6.1-FULL-SOURCE\\Builder\\solrstarter\\mylogger.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{013DD8EA-30DE-4CBE-869F-3D1A6B922AEE}|SolrStarter\\SolrStarter.vbproj|solutionrelative:solrstarter\\mylogger.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Worker.vb",
+              "DocumentMoniker": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6.1-FULL-SOURCE\\Builder\\SolrWorker\\Worker.vb",
+              "RelativeDocumentMoniker": "SolrWorker\\Worker.vb",
+              "ToolTip": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6.1-FULL-SOURCE\\Builder\\SolrWorker\\Worker.vb",
+              "RelativeToolTip": "SolrWorker\\Worker.vb",
+              "ViewState": "AgIAAAAMAAAAAAAAAAAYwAwMAADeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-14T17:44:26.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Mylogger.vb",
+              "DocumentMoniker": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6.1-FULL-SOURCE\\Builder\\SolrStarter\\Mylogger.vb",
+              "RelativeDocumentMoniker": "SolrStarter\\Mylogger.vb",
+              "ToolTip": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6.1-FULL-SOURCE\\Builder\\SolrStarter\\Mylogger.vb",
+              "RelativeToolTip": "SolrStarter\\Mylogger.vb",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-14T17:44:16.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Codes.vb",
+              "DocumentMoniker": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6.1-FULL-SOURCE\\Builder\\SolrWorker\\Codes.vb",
+              "RelativeDocumentMoniker": "SolrWorker\\Codes.vb",
+              "ToolTip": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6.1-FULL-SOURCE\\Builder\\SolrWorker\\Codes.vb",
+              "RelativeToolTip": "SolrWorker\\Codes.vb",
+              "ViewState": "AQIAABsAAAAAAAAAAADwvy4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-14T17:42:23.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mylogger.vb",
+              "DocumentMoniker": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6.1-FULL-SOURCE\\Builder\\SolrWorker\\Mylogger.vb",
+              "RelativeDocumentMoniker": "SolrWorker\\Mylogger.vb",
+              "ToolTip": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6.1-FULL-SOURCE\\Builder\\SolrWorker\\Mylogger.vb",
+              "RelativeToolTip": "SolrWorker\\Mylogger.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-14T17:42:08.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Crypters.vb",
+              "DocumentMoniker": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6.1-FULL-SOURCE\\Builder\\SolrWorker\\Crypters.vb",
+              "RelativeDocumentMoniker": "SolrWorker\\Crypters.vb",
+              "ToolTip": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6.1-FULL-SOURCE\\Builder\\SolrWorker\\Crypters.vb",
+              "RelativeToolTip": "SolrWorker\\Crypters.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-14T17:38:58.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Starter.vb",
+              "DocumentMoniker": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6.1-FULL-SOURCE\\Builder\\SolrStarter\\Starter.vb",
+              "RelativeDocumentMoniker": "SolrStarter\\Starter.vb",
+              "ToolTip": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6.1-FULL-SOURCE\\Builder\\SolrStarter\\Starter.vb",
+              "RelativeToolTip": "SolrStarter\\Starter.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-14T17:39:24.231Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

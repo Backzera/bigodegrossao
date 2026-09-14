@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6-ORIGINAL\\BTMOB_V3.6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89C99534-5AC9-4FA5-8D12-D9A895861E07}|BTMOB\\BTMOB.vbproj|c:\\users\\administrador do pc\\downloads\\000 - trampos\\sources\\btmob-3.6-original\\btmob_v3.6\\btmob\\tools\\screenmonitor.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{89C99534-5AC9-4FA5-8D12-D9A895861E07}|BTMOB\\BTMOB.vbproj|solutionrelative:btmob\\tools\\screenmonitor.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89C99534-5AC9-4FA5-8D12-D9A895861E07}|BTMOB\\BTMOB.vbproj|C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6-ORIGINAL\\BTMOB_V3.6\\btmob\\tools\\screenmonitor.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{89C99534-5AC9-4FA5-8D12-D9A895861E07}|BTMOB\\BTMOB.vbproj|solutionrelative:btmob\\tools\\screenmonitor.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89C99534-5AC9-4FA5-8D12-D9A895861E07}|BTMOB\\BTMOB.vbproj|C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6-ORIGINAL\\BTMOB_V3.6\\btmob\\dialogs\\blockstyle.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{89C99534-5AC9-4FA5-8D12-D9A895861E07}|BTMOB\\BTMOB.vbproj|solutionrelative:btmob\\dialogs\\blockstyle.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89C99534-5AC9-4FA5-8D12-D9A895861E07}|BTMOB\\BTMOB.vbproj|C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6-ORIGINAL\\BTMOB_V3.6\\btmob\\networks\\btclient.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{89C99534-5AC9-4FA5-8D12-D9A895861E07}|BTMOB\\BTMOB.vbproj|solutionrelative:btmob\\networks\\btclient.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89C99534-5AC9-4FA5-8D12-D9A895861E07}|BTMOB\\BTMOB.vbproj|C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6-ORIGINAL\\BTMOB_V3.6\\btmob\\dialogs\\blockstyle.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{89C99534-5AC9-4FA5-8D12-D9A895861E07}|BTMOB\\BTMOB.vbproj|solutionrelative:btmob\\dialogs\\blockstyle.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89C99534-5AC9-4FA5-8D12-D9A895861E07}|BTMOB\\BTMOB.vbproj|C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6-ORIGINAL\\BTMOB_V3.6\\btmob\\dialogs\\basestyle.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{89C99534-5AC9-4FA5-8D12-D9A895861E07}|BTMOB\\BTMOB.vbproj|solutionrelative:btmob\\dialogs\\basestyle.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89C99534-5AC9-4FA5-8D12-D9A895861E07}|BTMOB\\BTMOB.vbproj|C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6-ORIGINAL\\BTMOB_V3.6\\btmob\\classes\\btconst.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{89C99534-5AC9-4FA5-8D12-D9A895861E07}|BTMOB\\BTMOB.vbproj|solutionrelative:btmob\\classes\\btconst.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScreenMonitor.vb",
+              "DocumentMoniker": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6-ORIGINAL\\BTMOB_V3.6\\BTMOB\\tools\\ScreenMonitor.vb",
+              "RelativeDocumentMoniker": "BTMOB\\tools\\ScreenMonitor.vb",
+              "ToolTip": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6-ORIGINAL\\BTMOB_V3.6\\BTMOB\\tools\\ScreenMonitor.vb",
+              "RelativeToolTip": "BTMOB\\tools\\ScreenMonitor.vb",
+              "ViewState": "AgIAAMsCAAAAAAAAAAAewNQCAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-09-23T01:21:02.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ScreenMonitor.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6-ORIGINAL\\BTMOB_V3.6\\BTMOB\\tools\\ScreenMonitor.vb",
+              "RelativeDocumentMoniker": "BTMOB\\tools\\ScreenMonitor.vb",
+              "ToolTip": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6-ORIGINAL\\BTMOB_V3.6\\BTMOB\\tools\\ScreenMonitor.vb [Design]",
+              "RelativeToolTip": "BTMOB\\tools\\ScreenMonitor.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-09-23T01:19:40.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BTClient.vb",
+              "DocumentMoniker": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6-ORIGINAL\\BTMOB_V3.6\\BTMOB\\Networks\\BTClient.vb",
+              "RelativeDocumentMoniker": "BTMOB\\Networks\\BTClient.vb",
+              "ToolTip": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6-ORIGINAL\\BTMOB_V3.6\\BTMOB\\Networks\\BTClient.vb",
+              "RelativeToolTip": "BTMOB\\Networks\\BTClient.vb",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAwwGAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-09-22T20:10:33.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BTConst.vb",
+              "DocumentMoniker": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6-ORIGINAL\\BTMOB_V3.6\\BTMOB\\Classes\\BTConst.vb",
+              "RelativeDocumentMoniker": "BTMOB\\Classes\\BTConst.vb",
+              "ToolTip": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6-ORIGINAL\\BTMOB_V3.6\\BTMOB\\Classes\\BTConst.vb",
+              "RelativeToolTip": "BTMOB\\Classes\\BTConst.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-09-14T13:24:09.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "basestyle.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6-ORIGINAL\\BTMOB_V3.6\\BTMOB\\dialogs\\basestyle.vb",
+              "RelativeDocumentMoniker": "BTMOB\\dialogs\\basestyle.vb",
+              "ToolTip": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6-ORIGINAL\\BTMOB_V3.6\\BTMOB\\dialogs\\basestyle.vb [Design]",
+              "RelativeToolTip": "BTMOB\\dialogs\\basestyle.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-09-13T23:53:15.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "blockstyle.vb",
+              "DocumentMoniker": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6-ORIGINAL\\BTMOB_V3.6\\BTMOB\\dialogs\\blockstyle.vb",
+              "RelativeDocumentMoniker": "BTMOB\\dialogs\\blockstyle.vb",
+              "ToolTip": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6-ORIGINAL\\BTMOB_V3.6\\BTMOB\\dialogs\\blockstyle.vb",
+              "RelativeToolTip": "BTMOB\\dialogs\\blockstyle.vb",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAewKgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-09-13T23:40:22.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "blockstyle.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6-ORIGINAL\\BTMOB_V3.6\\BTMOB\\dialogs\\blockstyle.vb",
+              "RelativeDocumentMoniker": "BTMOB\\dialogs\\blockstyle.vb",
+              "ToolTip": "C:\\Users\\Administrador do PC\\Downloads\\000 - TRAMPOS\\SOURCES\\BTMOB-3.6-ORIGINAL\\BTMOB_V3.6\\BTMOB\\dialogs\\blockstyle.vb [Design]",
+              "RelativeToolTip": "BTMOB\\dialogs\\blockstyle.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-09-13T23:39:51.658Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

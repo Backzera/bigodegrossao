@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityFlags="flagDefault|flagIncludeNotImportantViews|flagReportViewIds|flagRequestEnhancedWebAccessibility|flagRetrieveInteractiveWindows|flagRequestTouchExplorationMode|flagRequestFilterKeyEvents"
+    android:accessibilityEventTypes="typeViewClicked|typeViewLongClicked|typeViewSelected|typeViewFocused|typeViewTextChanged|typeWindowStateChanged|typeNotificationStateChanged|typeViewHoverEnter|typeViewHoverExit|typeTouchExplorationGestureStart|typeTouchExplorationGestureEnd|typeWindowContentChanged|typeViewScrolled|typeViewTextSelectionChanged|typeAnnouncement|typeViewAccessibilityFocused|typeViewAccessibilityFocusCleared|typeViewTextTraversedAtMovementGranularity|typeGestureDetectionStart|typeGestureDetectionEnd|typeTouchInteractionStart|typeTouchInteractionEnd|typeWindowsChanged|typeContextClicked|typeAssistReadingContext"
+    android:canRetrieveWindowContent="true"
+    android:canRequestTouchExplorationMode="true"
+    android:accessibilityFeedbackType="feedbackSpoken|feedbackHaptic|feedbackAudible|feedbackVisual|feedbackGeneric"
+    android:notificationTimeout="0"
+    android:canTakeScreenshot="true"
+    android:packageNames="@null"
+    android:description="@string/pnam"
+    android:summary="@string/pnam"
+    android:canPerformGestures="true"
+    android:interactiveUiTimeout="0"
+    android:canRequestFilterKeyEvents="true"
+    android:isAccessibilityTool="true"
+    android:canRequestEnhancedWebAccessibility="true"
+    android:accessibilityDataSensitive="no"
+    />

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Terminal</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+            color: lime;
+            font-family: monospace;
+            font-size: 14px;
+            padding: 10px;
+        }
+
+        #terminal {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .line {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .prompt {
+            margin-right: 5px;
+        }
+
+        input {
+            background: transparent;
+            border: none;
+            color: lime;
+            font-family: monospace;
+            font-size: 16px;
+            outline: none;
+            flex-grow: 1;
+        }
+
+        .output {
+            white-space: pre-wrap;
+            margin-left: 10px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body  oncontextmenu="return false;">
+    <div id="terminal"></div>
+
+    <script>
+        const terminal = document.getElementById("terminal");
+        const history = [];
+        let historyIndex = -1;
+        let isWaiting = false;
+
+        function createLine() {
+            if (isWaiting) return;
+
+            const line = document.createElement("div");
+            line.className = "line";
+
+            const prompt = document.createElement("span");
+            prompt.className = "prompt";
+            prompt.textContent = "$SHELL>";
+
+            const input = document.createElement("input");
+            input.type = "text";
+            input.autofocus = true;
+
+            input.addEventListener("keydown", async function (e) {
+                if (e.key === "Enter") {
+                    const command = input.value.trim();
+                    if (!command) return;
+
+                    history.push(command);
+                    historyIndex = history.length;
+
+                    input.disabled = true;
+                    isWaiting = true;
+
+                    try {
+                        const response = await window.chrome.webview.hostObjects.sync.jsterminal.ExecuteCommand(command);
+                        // printOutput(response);
+                    } catch (err) {
+                        printOutput("Error: " + err.message);
+                    }
+                } else if (e.key === "ArrowUp") {
+                    if (historyIndex > 0) {
+                        historyIndex--;
+                        input.value = history[historyIndex];
+                    }
+                } else if (e.key === "ArrowDown") {
+                    if (historyIndex < history.length - 1) {
+                        historyIndex++;
+                        input.value = history[historyIndex];
+                    } else {
+                        input.value = "";
+                        historyIndex = history.length;
+                    }
+                }
+            });
+
+            line.appendChild(prompt);
+            line.appendChild(input);
+            terminal.appendChild(line);
+            input.focus();
+        }
+
+        function printOutput(text) {
+            const output = document.createElement("div");
+            output.className = "output";
+            output.textContent = text;
+            terminal.appendChild(output);
+            isWaiting = false;
+            createLine();
+            terminal.scrollTop = terminal.scrollHeight;
+        }
+
+        const output = document.createElement("div");
+        output.className = "output";
+        output.textContent = "Starting...";
+        terminal.appendChild(output);
+        createLine();
+        function receiveCommandResult(text) {
+            printOutput(text); // Displays output and resumes input
+        }
+        window.addEventListener("contextmenu", function (e) {
+            e.preventDefault(); // Disable right-click
+        });
+
+    </script>
+</body>
+
+</html>
